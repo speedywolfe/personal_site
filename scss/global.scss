@@ -1,16 +1,20 @@
-// Imports
+/*---------------------------------------------*/
+/* Imports */
+/*---------------------------------------------*/
 @import "compass";
 
-// Global site colors 
+/*---------------------------------------------*/
+/* Globals */
+/*---------------------------------------------*/ 
 $kuler_tan: #ccb381;
 $kuler_gray: #989898;
 $kuler_orange: #ff6a00;
 $kuler_blue: #40ffda;
 $kuler_green: #00cc6b;
 
-$background-path: "site_images/marble.jpg";
-
-// Extenders
+/*---------------------------------------------*/
+/* Extenders */
+/*---------------------------------------------*/
 .noSpace {
 	padding: 0px;
 	margin: 0px;
@@ -22,11 +26,13 @@ $background-path: "site_images/marble.jpg";
 }
 
 .baseStyle {
-	// margin: 10px;
+	// margin-bottom: 10px;
 	padding: 5px;
 }
 
-// main styles
+/*---------------------------------------------*/
+/* Main Styles */
+/*---------------------------------------------*/
 body {
 	@extend .noSpace;
 	padding: 0px;
@@ -41,40 +47,47 @@ body {
 	@extend .noSpace;
 }
 
-// top bar
+/*---------------------------------------------*/
+/* Top Bar */
+/*---------------------------------------------*/
 #top_bar {
 	@extend .baseStyle;
 	z-index: 3;
 	width: 100%;
-	height: 10%;
+	height: 140px;
 	position: fixed;
 	background-color: white;
 }
 
 #logo {
 	height: 80px;
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0;
 }
 
-// First body
+/*---------------------------------------------*/
+/* First Body */
+/*---------------------------------------------*/
 #first_body {
 	@extend .center-element;
 	@extend .baseStyle;
 	background-color: $kuler_green;
 	position: relative;
-	top: 20%;
-	height: 70%;
+	top: 160px;
+	height: 1200px;
 	width: 100%;
 
 }
 
-// Seconf body
+// Second body
 #second_body {
 	@extend .center-element;
 	@extend .baseStyle;
 	background-color: $kuler_orange;
 	position: relative;
-	top: 30%;
-	height: 70%;
+	// top: 20px;
+	height: 1200px;
 	width: 100%;
 }
 
