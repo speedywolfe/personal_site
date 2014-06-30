@@ -20,13 +20,20 @@ $kuler_green: #00cc6b;
 	margin: 0px;
 }
 
+// Complete Center
 .center-element {
 	margin-left: auto;
 	margin-right: auto;
 }
 
+// Vertical Align
+.vertically-centered {
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0;
+}
+
 .baseStyle {
-	// margin-bottom: 10px;
 	padding: 5px;
 }
 
@@ -54,16 +61,35 @@ body {
 	@extend .baseStyle;
 	z-index: 3;
 	width: 100%;
-	height: 140px;
+	height: 200px;
 	position: fixed;
 	background-color: white;
 }
 
 #logo {
+	@extend .vertically-centered;
 	height: 80px;
-	margin: auto;
+}
+
+#name {
 	position: absolute;
-	top: 0; bottom: 0;
+	top: 10%;
+	left: 150px;
+	font-size: 48px;
+	// vertical-align: middle;
+}
+
+#nav-container {
+	position:absolute;
+	top: 20%;
+	right: 15%;
+	font-size: 30px;
+}
+
+#nav-list li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 60px;
 }
 
 /*---------------------------------------------*/

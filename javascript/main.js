@@ -9,14 +9,14 @@ $(window).scroll(function() {
 function barSquish(scroll) {
 	var current_Scroll = scroll;
 	if(current_Scroll < 61) {
-		console.log("inside if");
 		var bar_height = $(window).scroll(function() {
-			var bar_height = $("#top_bar").css("height");
-			return bar_height;
+			var current_height = $("#top_bar").css("height");
+			return current_height;
 		});
-		// console.log("bar_height: " + bar_height);
+
 		$("#top_bar").css("height", 160 - current_Scroll);
-		console.log("scroll: " + current_Scroll); 
+		$("#name").css("top", 15 - (current_Scroll/2));
+		$("#nav-container").css(20 - (current_Scroll/2));
 	}
 }
 

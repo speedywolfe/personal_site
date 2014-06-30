@@ -13,13 +13,21 @@
   margin: 0px;
 }
 
-/* line 23, ../scss/global.scss */
+/* line 24, ../scss/global.scss */
 .center-element, #first_body, #second_body {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 28, ../scss/global.scss */
+/* line 30, ../scss/global.scss */
+.vertically-centered, #logo {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+/* line 36, ../scss/global.scss */
 .baseStyle, #top_bar, #first_body, #second_body {
   padding: 5px;
 }
@@ -27,13 +35,13 @@
 /*---------------------------------------------*/
 /* Main Styles */
 /*---------------------------------------------*/
-/* line 36, ../scss/global.scss */
+/* line 43, ../scss/global.scss */
 body {
   padding: 0px;
   background-color: #989898;
 }
 
-/* line 43, ../scss/global.scss */
+/* line 50, ../scss/global.scss */
 #container {
   position: relative;
   height: 1000px;
@@ -43,28 +51,47 @@ body {
 /*---------------------------------------------*/
 /* Top Bar */
 /*---------------------------------------------*/
-/* line 53, ../scss/global.scss */
+/* line 60, ../scss/global.scss */
 #top_bar {
   z-index: 3;
   width: 100%;
-  height: 140px;
+  height: 200px;
   position: fixed;
   background-color: white;
 }
 
-/* line 62, ../scss/global.scss */
+/* line 69, ../scss/global.scss */
 #logo {
   height: 80px;
-  margin: auto;
+}
+
+/* line 74, ../scss/global.scss */
+#name {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 10%;
+  left: 150px;
+  font-size: 48px;
+}
+
+/* line 82, ../scss/global.scss */
+#nav-container {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  font-size: 30px;
+}
+
+/* line 89, ../scss/global.scss */
+#nav-list li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 60px;
 }
 
 /*---------------------------------------------*/
 /* First Body */
 /*---------------------------------------------*/
-/* line 72, ../scss/global.scss */
+/* line 98, ../scss/global.scss */
 #first_body {
   background-color: #00cc6b;
   position: relative;
@@ -73,7 +100,7 @@ body {
   width: 100%;
 }
 
-/* line 84, ../scss/global.scss */
+/* line 110, ../scss/global.scss */
 #second_body {
   background-color: #ff6a00;
   position: relative;
