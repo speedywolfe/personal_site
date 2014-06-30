@@ -1,3 +1,6 @@
+// Imports
+@import "compass";
+
 // Global site colors 
 $kuler_tan: #ccb381;
 $kuler_gray: #989898;
@@ -5,15 +8,74 @@ $kuler_orange: #ff6a00;
 $kuler_blue: #40ffda;
 $kuler_green: #00cc6b;
 
+$background-path: "site_images/marble.jpg";
+
 // Extenders
 .noSpace {
 	padding: 0px;
 	margin: 0px;
 }
 
+.center-element {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.baseStyle {
+	// margin: 10px;
+	padding: 5px;
+}
+
+// main styles
 body {
+	@extend .noSpace;
 	padding: 0px;
 	background-color: $kuler_gray;
+	// background-image: url($background-path);
+}
+
+#container {
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	@extend .noSpace;
+}
+
+// top bar
+#top_bar {
+	@extend .baseStyle;
+	z-index: 3;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	background-color: white;
+}
+
+#logo {
+	height: 80px;
+}
+
+// First body
+#first_body {
+	@extend .center-element;
+	@extend .baseStyle;
+	background-color: $kuler_green;
+	position: relative;
+	top: 20%;
+	height: 70%;
+	width: 100%;
+
+}
+
+// Seconf body
+#second_body {
+	@extend .center-element;
+	@extend .baseStyle;
+	background-color: $kuler_orange;
+	position: relative;
+	top: 30%;
+	height: 70%;
+	width: 100%;
 }
 
 
