@@ -1,0 +1,20 @@
+// Global site colors 
+$kuler_tan: #ccb381;
+$kuler_gray: #989898;
+$kuler_orange: #ff6a00;
+$kuler_blue: #40ffda;
+$kuler_green: #00cc6b;
+
+// Extenders
+.noSpace {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	background-color: $kuler_gray;
+}
+
+
+

@@ -1,0 +1,11 @@
+/* line 9, ../scss/global.scss */
+.noSpace {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 14, ../scss/global.scss */
+body {
+  padding: 0px;
+  background-color: #989898;
+}
