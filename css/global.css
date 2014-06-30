@@ -68,20 +68,20 @@ body {
 /* line 74, ../scss/global.scss */
 #name {
   position: absolute;
-  top: 10%;
+  top: 30px;
   left: 150px;
   font-size: 48px;
 }
 
-/* line 82, ../scss/global.scss */
+/* line 81, ../scss/global.scss */
 #nav-container {
   position: absolute;
-  top: 20%;
+  top: 70px;
   right: 15%;
   font-size: 30px;
 }
 
-/* line 89, ../scss/global.scss */
+/* line 88, ../scss/global.scss */
 #nav-list li {
   display: inline;
   list-style-type: none;
@@ -91,7 +91,7 @@ body {
 /*---------------------------------------------*/
 /* First Body */
 /*---------------------------------------------*/
-/* line 98, ../scss/global.scss */
+/* line 97, ../scss/global.scss */
 #first_body {
   background-color: #00cc6b;
   position: relative;
@@ -100,7 +100,7 @@ body {
   width: 100%;
 }
 
-/* line 110, ../scss/global.scss */
+/* line 109, ../scss/global.scss */
 #second_body {
   background-color: #ff6a00;
   position: relative;
