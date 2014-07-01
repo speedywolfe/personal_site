@@ -14,7 +14,7 @@
 }
 
 /* line 24, ../scss/global.scss */
-.center-element, #first_body, #second_body {
+.center-element, .areaStyle, #about_me, #resume, #work, #fun {
   margin-left: auto;
   margin-right: auto;
 }
@@ -25,23 +25,31 @@
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 30px;
 }
 
 /* line 36, ../scss/global.scss */
-.baseStyle, #top_bar, #first_body, #second_body {
+.baseStyle, .areaStyle, #about_me, #resume, #work, #fun, #top_bar {
   padding: 5px;
+}
+
+/* line 40, ../scss/global.scss */
+.areaStyle, #about_me, #resume, #work, #fun {
+  position: relative;
+  height: 800px;
+  width: 100%;
 }
 
 /*---------------------------------------------*/
 /* Main Styles */
 /*---------------------------------------------*/
-/* line 43, ../scss/global.scss */
+/* line 51, ../scss/global.scss */
 body {
   padding: 0px;
   background-color: #989898;
 }
 
-/* line 50, ../scss/global.scss */
+/* line 58, ../scss/global.scss */
 #container {
   position: relative;
   height: 1000px;
@@ -51,7 +59,7 @@ body {
 /*---------------------------------------------*/
 /* Top Bar */
 /*---------------------------------------------*/
-/* line 60, ../scss/global.scss */
+/* line 68, ../scss/global.scss */
 #top_bar {
   z-index: 3;
   width: 100%;
@@ -60,12 +68,12 @@ body {
   background-color: white;
 }
 
-/* line 69, ../scss/global.scss */
+/* line 77, ../scss/global.scss */
 #logo {
   height: 80px;
 }
 
-/* line 74, ../scss/global.scss */
+/* line 82, ../scss/global.scss */
 #name {
   position: absolute;
   top: 30px;
@@ -73,7 +81,7 @@ body {
   font-size: 48px;
 }
 
-/* line 81, ../scss/global.scss */
+/* line 89, ../scss/global.scss */
 #nav-container {
   position: absolute;
   top: 70px;
@@ -81,7 +89,7 @@ body {
   font-size: 30px;
 }
 
-/* line 88, ../scss/global.scss */
+/* line 96, ../scss/global.scss */
 #nav-list li {
   display: inline;
   list-style-type: none;
@@ -89,21 +97,68 @@ body {
 }
 
 /*---------------------------------------------*/
-/* First Body */
+/* thinking_bar */
 /*---------------------------------------------*/
-/* line 97, ../scss/global.scss */
-#first_body {
-  background-color: #00cc6b;
-  position: relative;
-  top: 160px;
-  height: 1200px;
+/* line 105, ../scss/global.scss */
+.thinking_bar {
+  height: 75px;
   width: 100%;
+  position: relative;
+  background-color: #989898;
 }
 
-/* line 109, ../scss/global.scss */
-#second_body {
+/* line 112, ../scss/global.scss */
+#undercover {
+  height: 275px;
+}
+
+/*---------------------------------------------*/
+/* All Areas */
+/*---------------------------------------------*/
+/* line 119, ../scss/global.scss */
+.area_title {
+  font-size: 30px;
+}
+
+/*---------------------------------------------*/
+/* About Me */
+/*---------------------------------------------*/
+/* line 127, ../scss/global.scss */
+#about_me {
+  background-color: #00cc6b;
+}
+
+/*---------------------------------------------*/
+/* Resume */
+/*---------------------------------------------*/
+/* line 135, ../scss/global.scss */
+#resume {
   background-color: #ff6a00;
+}
+
+/*---------------------------------------------*/
+/* work */
+/*---------------------------------------------*/
+/* line 143, ../scss/global.scss */
+#work {
+  background-color: #40ffda;
+}
+
+/*---------------------------------------------*/
+/* fun */
+/*---------------------------------------------*/
+/* line 150, ../scss/global.scss */
+#fun {
+  background-color: #ccb381;
+}
+
+/*---------------------------------------------*/
+/* Contact */
+/*---------------------------------------------*/
+/* line 157, ../scss/global.scss */
+#contact {
   position: relative;
-  height: 1200px;
   width: 100%;
+  height: 140px;
+  background-color: white;
 }

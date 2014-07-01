@@ -8,6 +8,9 @@
 
 	  	<script type="text/javascript" src = "javascript/jquery-2.1.1.min.js"></script>
 	  	<script type="text/javascript" src = "javascript/main.js"></script>
+	  	<script type="text/javascript" src = "javascript/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src = "javascript/liteaccordion.jquery.min.js.js"></script>
+
 	</head>
 	<body>
 		<div id ="container">
@@ -16,17 +19,45 @@
 				<p id = "name"> Mitchell Wolfe </p>
 				<div id = "nav-container">
 					<ul id = "nav-list">
-						<li> About Me </li>
-						<li> Resume </li>
-						<li> Work </li>
-						<li> Fun </li>
+						<li onclick="$.scrollTo('#undercover', 1000);"> 
+							About Me 
+						</li>
+						<li onclick="$.scrollTo('#idea1', 1000);"> 
+							Resume 
+						</li>
+						<li onclick="$.scrollTo('#idea2', 1000);"> 
+							Work 
+						</li>
+						<li onclick="$.scrollTo('#idea3', 1000);"> 
+							Fun 
+						</li>
 					</ul>
 				</div>
 			</div>
 			<!-- Projected Areas: about, resume, work, fun, contact -->
-			<div id = "first_body">
+			<div id = "undercover" class = "thinking_bar">
 			</div>
-			<div id = "second_body">
+			<div id = "about_me">
+				<p class = "area_title"> About Me </p>
+			</div>
+			<div id = "idea1" class = "thinking_bar">
+			</div>
+			<div id = "resume">
+				<p class = "area_title"> Resume </p>
+			</div>
+			<div id = "idea2" class = "thinking_bar">
+			</div>
+			<div id = "work">
+				<p class = "area_title"> Work </p>
+			</div>
+			<div id = "idea3" class = "thinking_bar">
+			</div>
+			<div id = "fun">
+				<p class = "area_title"> Fun </p>
+			</div>
+			<div id = "idea4" class = "thinking_bar">
+			</div>
+			<div id = "contact">
 			</div> 
 		</div>
 	</body>

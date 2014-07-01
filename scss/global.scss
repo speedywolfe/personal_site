@@ -30,11 +30,19 @@ $kuler_green: #00cc6b;
 .vertically-centered {
 	margin: auto;
 	position: absolute;
-	top: 0; bottom: 0;
+	top: 0; bottom: 0; left: 30px;
 }
 
 .baseStyle {
 	padding: 5px;
+}
+
+.areaStyle {
+	@extend .center-element;
+	@extend .baseStyle;
+	position: relative;
+	height: 800px;
+	width: 100%;
 }
 
 /*---------------------------------------------*/
@@ -79,7 +87,7 @@ body {
 }
 
 #nav-container {
-	position:absolute;
+	position: absolute;
 	top: 70px;
 	right: 15%;
 	font-size: 30px;
@@ -92,29 +100,64 @@ body {
 }
 
 /*---------------------------------------------*/
-/* First Body */
+/* thinking_bar */
 /*---------------------------------------------*/
-#first_body {
-	@extend .center-element;
-	@extend .baseStyle;
+.thinking_bar {
+	height: 75px;
+	width: 100%;
+	position: relative;
+	background-color: $kuler_gray;
+}
+
+#undercover {
+	height: 275px;
+}
+
+/*---------------------------------------------*/
+/* All Areas */
+/*---------------------------------------------*/
+.area_title {
+	@extend baseStyle;
+	font-size: 30px;
+}
+ 
+/*---------------------------------------------*/
+/* About Me */
+/*---------------------------------------------*/
+#about_me {
+	@extend .areaStyle;
 	background-color: $kuler_green;
-	position: relative;
-	top: 160px;
-	height: 1200px;
-	width: 100%;
-
 }
 
-// Second body
-#second_body {
-	@extend .center-element;
-	@extend .baseStyle;
+/*---------------------------------------------*/
+/* Resume */
+/*---------------------------------------------*/
+#resume {
+	@extend .areaStyle;
 	background-color: $kuler_orange;
-	position: relative;
-	// top: 20px;
-	height: 1200px;
-	width: 100%;
 }
 
-
+/*---------------------------------------------*/
+/* work */
+/*---------------------------------------------*/
+#work {
+	@extend .areaStyle;
+	background-color: $kuler_blue;
+}
+/*---------------------------------------------*/
+/* fun */
+/*---------------------------------------------*/
+#fun {
+	@extend .areaStyle;
+	background-color: $kuler_tan;
+}
+/*---------------------------------------------*/
+/* Contact */
+/*---------------------------------------------*/
+#contact {
+	position: relative;
+	width: 100%;
+	height: 140px;
+	background-color: white;
+}
 
