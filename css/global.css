@@ -29,7 +29,7 @@
 }
 
 /* line 36, ../scss/global.scss */
-.baseStyle, .areaStyle, #about_me, #resume, #work, #fun, #top_bar {
+.baseStyle, .areaStyle, #about_me, #resume, #work, #fun, #top_bar, .area_title {
   padding: 5px;
 }
 
@@ -61,7 +61,7 @@ body {
 /*---------------------------------------------*/
 /* line 68, ../scss/global.scss */
 #top_bar {
-  z-index: 3;
+  z-index: 101;
   width: 100%;
   height: 200px;
   position: fixed;
