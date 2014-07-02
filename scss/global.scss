@@ -191,6 +191,28 @@ body {
 	@extend .areaStyle;
 	background-color: $kuler_purple;
 }
+
+#fun-nav-container {
+	position: absolute;
+	top: 10px;
+	right: 15%; 
+}
+
+#fun-nav-bar li {
+	@extend .nav_bar_basics;
+}
+
+#fun_panel1 {
+	opacity: 1.0;
+}
+
+#fun_panel2 {
+	opacity: 0;
+}
+
+#fun_panel3 {
+	opacity: 0;
+}
 /*---------------------------------------------*/
 /* Contact */
 /*---------------------------------------------*/

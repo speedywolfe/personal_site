@@ -1,5 +1,5 @@
 var window_width = window.innerWidth;
-var accordion_width = (window_width - ((1*window_width)/10));
+var accordion_width = (window_width - ((window_width)/10));
 var current_panel_work = 1; // current panel of work slider
 var current_panel_fun = 1;  // current panel of play slider
 
@@ -21,60 +21,15 @@ function barSquish(scroll) {
 }
 
 /*----------------------------------------------*/
-/* Sliding Content Panels*/
+/* Panel Switching through transparency */
 /*----------------------------------------------*/
-// $(window).ready(function() {
-// 	$('#content3').liteAccordion({
-// 		containerWidth: accordion_width,
-// 		containerHeight: 680,
-// 		headerWidth: 50,
-// 		theme: 'dark'
-// 	});
-// })
-
-// $(window).ready(function() {
-// 	$('#content4').liteAccordion({
-// 		containerWidth: accordion_width,
-// 		containerHeight: 680,
-// 		headerWidth: 60,
-// 		theme: 'dark'
-// 	});
-// })
-
-/*----------------------------------------------*/
-/* Own Sliding Panels */
-/*----------------------------------------------*/
-// function horizontal_slide(panel_number, which_panel) {
-// 	// offset will be one window width for each panel
-// 	var slide_offset = panel_number * window_width;
-
-// 	// decide on work or play panel
-// 	if(which_panel == 'work') {
-// 		current_panel_number = current_panel_work;
-// 	}
-// 	if(which_panel == 'play') {
-// 		current_panel_number = current_panel_fun;
-// 	}
-
-// 	// slide panel, direction depends on panel number
-// 	if(slide_offset > current_panel_number) {
-// 		$('work_content').animate({
-// 			'left' : slide_offset
-// 		});
-// 	}
-// 	else {
-// 		$(this).animate({
-// 			'right' : slide_offset
-// 		});
-// 	}
-// }
 function switch_panel(section, panel_number) {
 	// decide on work or play panel
 	var current_panel_number;
 	if(section == 'work_panel') {
 		current_panel_number = current_panel_work;
 	}
-	if(section == 'play_panel') {
+	if(section == 'fun_panel') {
 		current_panel_number = current_panel_fun;
 	}
 
@@ -86,17 +41,15 @@ function switch_panel(section, panel_number) {
 	
 		// close previously open panel
 		transparency_change('transparent', section, current_panel_number);
-		console.log("After close previous Pannel, " + current_panel_work);
-
 		// open new panel
 		transparency_change('opaque', section, panel_number);
-		console.log("After Open New Pannel, " + current_panel_work);
+		
 
 		// Have to check again which section we are in to update panel number
 		if(section == 'work_panel') {
 			current_panel_work = panel_number;
 		}
-		if(section == 'play_panel') {
+		if(section == 'fun_panel') {
 			current_panel_fun = panel_number;
 		}
 	}
@@ -104,9 +57,9 @@ function switch_panel(section, panel_number) {
 
 function transparency_change(direction, panel_section, panel_number) {
 	if(direction == 'opaque') {
-		$('#' + panel_section + panel_number).fadeIn(1000);
+		$('#' + panel_section + panel_number).animate({opacity: 1}, 1000);
 	}
 	else {
-		$('#' + panel_section + panel_number).fadeOut(1000);
+		$('#' + panel_section + panel_number).animate({opacity: 0}, 1000);
 	}
 }
