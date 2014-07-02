@@ -1,16 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	  	<meta charset = "UTF-8">
+	  	<meta charset= "UTF-8">
 	  	<title> Mitchell Wolfe </title>
 
-	  	<link href = "css/global.css" rel="stylesheet" type="text/css">
-	  	<link href = "css/liteaccordion.css" rel="stylesheet" type="text/css">
+	  	<link href= "css/global.css" rel= "stylesheet" type= "text/css">
+	  	<link href= "css/liteaccordion.css" rel= "stylesheet" type= "text/css">
 
-	  	<script type="text/javascript" src = "javascript/jquery-2.1.1.min.js"></script>
-	  	<script type="text/javascript" src = "javascript/main.js"></script>
-	  	<script type="text/javascript" src = "javascript/jquery.scrollTo.min.js"></script>
-		<script type="text/javascript" src = "javascript/liteaccordion.jquery.min.js"></script>
+	  	<script type= "text/javascript" src= "javascript/jquery-2.1.1.min.js"></script>
+	  	<script type= "text/javascript" src= "javascript/main.js"></script>
+	  	<script type= "text/javascript" src= "javascript/jquery.scrollTo.min.js"></script>
+		<script type= "text/javascript" src= "javascript/liteaccordion.jquery.min.js"></script>
 	</head>
 	<body>
 		<div id ="container">
@@ -49,20 +49,29 @@
 			</div>
 			<div id = "work">
 				<p class = "area_title"> Work </p>
-				<div id = "work_nav">
-					<ul id = "nav-list">
-						<li onclick="horizontal_slide(1, 'work');"> 
+				<div id = "work-nav-container">
+					<ul id = "work-nav-bar">
+						<li onclick="switch_panel('work_panel', 1);"> 
 							Panel 1 
 						</li>
-						<li onclick="horizontal_slide(2, 'work');"> 
+						 <li onclick="switch_panel('work_panel', 2);"> 
 							Panel 2 
+						</li>
+						<li onclick="switch_panel('work_panel', 3);"> 
+							Panel 3 
+						</li>
 						</li>
 					</ul>
 				</div>
 				<div id = "work_content">
 					<div id = "work_panel1" class = "content_panel">
+						<p> Inside of Panel 1 </p>
 					</div>
 					<div id = "work_panel2" class = "content_panel">
+						<p> Inside of Panel 2 </p>
+					</div>
+					<div id = "work_panel3" class = "content_panel">
+						<p> Inside of Panel 3 </p>
 					</div>
 				</div>
 			</div>
