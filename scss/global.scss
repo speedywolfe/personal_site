@@ -6,11 +6,11 @@
 /*---------------------------------------------*/
 /* Globals */
 /*---------------------------------------------*/ 
-$kuler_tan: #ccb381;
-$kuler_gray: #989898;
-$kuler_orange: #ff6a00;
-$kuler_blue: #40ffda;
-$kuler_green: #00cc6b;
+$kuler_purple: #cfc9e7;
+$kuler_gray: #d0d0d0;
+$kuler_orange: #ff7d4e;
+$kuler_light_blue: #21d3bf;
+$kuler_dark_blue: #58dd01;
 
 /*---------------------------------------------*/
 /* Extenders */
@@ -42,7 +42,8 @@ $kuler_green: #00cc6b;
 	@extend .baseStyle;
 	position: relative;
 	height: 800px;
-	width: 100%;
+	width: 90%;
+	opacity: 0.7;
 }
 
 /*---------------------------------------------*/
@@ -51,8 +52,8 @@ $kuler_green: #00cc6b;
 body {
 	@extend .noSpace;
 	padding: 0px;
-	background-color: $kuler_gray;
-	// background-image: url($background-path);
+	// background-color: $kuler_gray;
+	background-image: url("site_images/grey-spot-background.png");
 }
 
 #container {
@@ -120,13 +121,19 @@ body {
 	@extend .baseStyle;
 	font-size: 30px;
 }
+
+.content_panel {
+	position: relative;
+	width: 100%;
+	background-color: black;
+}
  
 /*---------------------------------------------*/
 /* About Me */
 /*---------------------------------------------*/
 #about_me {
 	@extend .areaStyle;
-	background-color: $kuler_green;
+	background-color: $kuler_light_blue;
 }
 
 /*---------------------------------------------*/
@@ -134,7 +141,7 @@ body {
 /*---------------------------------------------*/
 #resume {
 	@extend .areaStyle;
-	background-color: $kuler_orange;
+	background-color: $kuler_purple;
 }
 
 /*---------------------------------------------*/
@@ -142,14 +149,14 @@ body {
 /*---------------------------------------------*/
 #work {
 	@extend .areaStyle;
-	background-color: $kuler_blue;
+	background-color: $kuler_light_blue;
 }
 /*---------------------------------------------*/
 /* fun */
 /*---------------------------------------------*/
 #fun {
 	@extend .areaStyle;
-	background-color: $kuler_tan;
+	background-color: $kuler_purple;
 }
 /*---------------------------------------------*/
 /* Contact */
