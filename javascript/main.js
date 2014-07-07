@@ -22,10 +22,13 @@ $(window).scroll(function() {
 /*----------------------------------------------*/
 function transparency_change(direction, panel_section, panel_number) {
 	if(direction === 'opaque') {
-		$('#' + panel_section + panel_number).animate({opacity: 1}, 1000);
+		$('#' + panel_section + panel_number).css("z-index", 5);
+		$('#' + panel_section + panel_number).animate({opacity: 1}, 1000);	
 	}
 	else {
-		$('#' + panel_section + panel_number).animate({opacity: 0}, 1000);
+		$('#' + panel_section + panel_number).animate({opacity: 0}, 1000, function() {
+			$('#' + panel_section + panel_number).css("z-index", -1);
+		});
 	}
 }
 
@@ -44,12 +47,13 @@ function switch_panel(section, panel_number) {
 
 	// actually switch panels if you click one that isn't currently displayed
 	else {
-	
+
 		// close previously open panel
 		transparency_change('transparent', section, current_panel_number);
+
 		// open new panel
 		transparency_change('opaque', section, panel_number);
-		
+
 
 		// Have to check again which section we are in to update panel number
 		if(section === 'work_panel') {

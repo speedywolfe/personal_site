@@ -35,6 +35,9 @@
   list-style-type: none;
   padding-right: 60px; }
 
+.clicker, #top_bar, #work-nav-bar li, #fun-nav-bar li {
+  cursor: pointer; }
+
 /*---------------------------------------------*/
 /* Main Styles */
 /*---------------------------------------------*/
@@ -45,14 +48,14 @@ body {
 #container {
   position: relative;
   height: 1000px;
-  width: 100%; }
+  width: 99.5%; }
 
 /*---------------------------------------------*/
 /* Top Bar */
 /*---------------------------------------------*/
 #top_bar {
   z-index: 101;
-  width: 100%;
+  width: 99.5%;
   height: 200px;
   position: fixed;
   background-color: #d0d0d0;
@@ -82,7 +85,7 @@ body {
 /*---------------------------------------------*/
 .thinking_bar {
   height: 75px;
-  width: 100%;
+  width: 99.5%;
   position: relative;
   background-color: black; }
 
@@ -129,6 +132,15 @@ body {
   background-color: #cfc9e7; }
 
 /*---------------------------------------------*/
+/* Gallery */
+/*---------------------------------------------*/
+.panel-media a {
+  height: 500; }
+
+.gallery_image {
+  height: 300px; }
+
+/*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
 #work {
@@ -160,19 +172,22 @@ body {
   right: 15%; }
 
 #fun_panel1 {
-  opacity: 1.0; }
+  opacity: 1.0;
+  z-index: 5; }
 
 #fun_panel2 {
-  opacity: 0; }
+  opacity: 0;
+  z-index: -1; }
 
 #fun_panel3 {
-  opacity: 0; }
+  opacity: 0;
+  z-index: -1; }
 
 /*---------------------------------------------*/
 /* Contact */
 /*---------------------------------------------*/
 #contact {
   position: relative;
-  width: 100%;
+  width: 99.5%;
   height: 140px;
   background-color: white; }

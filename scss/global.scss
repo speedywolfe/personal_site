@@ -53,6 +53,10 @@ $kuler_sky_blue: #3462bf;
 	padding-right: 60px;
 }
 
+.clicker {
+	cursor: pointer;
+}
+
 /*---------------------------------------------*/
 /* Main Styles */
 /*---------------------------------------------*/
@@ -66,7 +70,7 @@ body {
 #container {
 	position: relative;
 	height: 1000px;
-	width: 100%;
+	width: 99.5%;
 	@extend .noSpace;
 }
 
@@ -75,8 +79,9 @@ body {
 /*---------------------------------------------*/
 #top_bar {
 	@extend .baseStyle;
+	@extend .clicker;
 	z-index: 101;
-	width: 100%;
+	width: 99.5%;
 	height: 200px;
 	position: fixed;
 	background-color: $kuler_gray;
@@ -116,7 +121,7 @@ body {
 .thinking_bar {
 	@extend .center-element;
 	height: 75px;
-	width: 100%;
+	width: 99.5%;
 	position: relative;
 	background-color: black;
 }
@@ -177,6 +182,16 @@ body {
 }
 
 /*---------------------------------------------*/
+/* Gallery */
+/*---------------------------------------------*/
+.panel-media a {
+	height: 500;
+}
+.gallery_image {
+	height: 300px;
+}
+
+/*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
 #work {
@@ -192,6 +207,7 @@ body {
 
 #work-nav-bar li {
 	@extend .nav_bar_basics;
+	@extend .clicker;
 }
 
 #work_panel1 {
@@ -222,25 +238,29 @@ body {
 
 #fun-nav-bar li {
 	@extend .nav_bar_basics;
+	@extend .clicker;
 }
 
 #fun_panel1 {
 	opacity: 1.0;
+	z-index: 5;
 }
 
 #fun_panel2 {
 	opacity: 0;
+	z-index: -1;
 }
 
 #fun_panel3 {
 	opacity: 0;
+	z-index: -1;
 }
 /*---------------------------------------------*/
 /* Contact */
 /*---------------------------------------------*/
 #contact {
 	position: relative;
-	width: 100%;
+	width: 99.5%;
 	height: 140px;
 	background-color: white;
 }
