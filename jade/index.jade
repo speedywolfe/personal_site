@@ -1,23 +1,11 @@
 doctype html
 html
-	head
-		title Mitchell Wolfe
-		meta(charset="UTF-8")
-
-		//- CSS
-		link(rel='stylesheet', href='css/global.css')
-		link(rel='stylesheet', href='css/slimbox2.css')
-
-
-		//-scripts
-		script(type='text/javascript' src = 'javascript/jquery-2.1.1.min.js')
-		script(type='text/javascript' src = 'javascript/main.js')
-		script(type='text/javascript' src = 'javascript/jquery.scrollTo.min.js')
-		script(type='text/javascript' src = 'javascript/slimbox2.js')
+	include head
 	body
 		div(id="container")
+			//- Top Navigation Bar
 			div(id="top_bar")
-				img(id="logo" src="site_images/logo1.png")
+				img(id="logo" src="images/logo1.png")
 				p(id="name") Mitchell Wolfe
 				div(id="nav-container")
 					ul(id="nav-list")
@@ -26,43 +14,28 @@ html
 						li(onclick="$.scrollTo('#idea2', 1000);") Work
 						li(onclick="$.scrollTo('#idea3', 1000);") Fun
 			div(id="undercover" class="thinking_bar")
-			div(id="about_me")
-				img(src="site_images/portrait.JPG")
-				p(id="about_me_title" class="area_title") About me
-			div(id="idea1" class="thinking_bar")
-			div(id="resume")
-				p(class="area_title") Resume
-			div(id="idea2" class="thinking_bar")
-			div(id="work")
-				p(class="area_title") Work
-				div(id="work-nav-container")
-					ul(id="work-nav-bar")
-						li(onclick="switch_panel('work_panel', 1);") Panel 1
-						li(onclick="switch_panel('work_panel', 2);") Panel 2
-						li(onclick="switch_panel('work_panel', 3);") Panel 3
-				div(id="work_content")
-					div(id="work_panel1" class="content_panel")
-						p Inside of Panel 1
-					div(id="work_panel2" class="content_panel")
-						p Inside of Panel 2
-					div(id="work_panel3" class="content_panel")
-						p Inside of Panel 3
+
+			//- About Me Section
+			include about
+
+			div(id="idea1" class="thinking_bar") 
+
+			//- Resume Section
+			include resume
+
+			div(id="idea2" class="thinking_bar") 
+
+			//- Work Section
+			include work
+			
 			div(id="idea3" class="thinking_bar")
-			div(id="fun")
-				p(class="area_title") Fun
-				div(id="fun-nav-container")
-					ul(id="fun-nav-bar")
-						li(onclick="switch_panel('fun_panel', 1);") Panel 1
-						li(onclick="switch_panel('fun_panel', 2);") Panel 2
-						li(onclick="switch_panel('fun_panel', 3);") Panel 3
-				div(id="fun_content")
-					div(id="fun_panel1" class="content_panel")
-						p Digital Art
-					div(id="fun_panel2" class="content_panel")
-						p Photography
-					div(id="fun_panel3" class="content_panel")
-						p AFter Effects
+
+			//- Fun Sction
+			include fun
+
 			div(id="idea4" class="thinking_bar")
+
+			//- Contact
 			div(id="contact")
 
 //- End of File
