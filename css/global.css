@@ -7,11 +7,11 @@
 /*---------------------------------------------*/
 /* Extenders */
 /*---------------------------------------------*/
-.noSpace, body, #container {
+.no-Space, body, #container {
   padding: 0px;
   margin: 0px; }
 
-.center-element, .areaStyle, #about_me, #resume, #work, #fun, .thinking_bar {
+.center-element, .area-Style, #about_me, #resume, #work, #fun, .thinking_bar {
   margin-left: auto;
   margin-right: auto; }
 
@@ -22,24 +22,24 @@
   bottom: 0;
   left: 30px; }
 
-.baseStyle, .areaStyle, #about_me, #resume, #work, #fun, #top_bar, .area_title, .content_panel {
+.base-Style, .area-Style, #about_me, #resume, #work, #fun, #top_bar, .content_area_title, .content_panel {
   padding: 5px; }
 
-.areaStyle, #about_me, #resume, #work, #fun {
+.area-Style, #about_me, #resume, #work, #fun {
   position: relative;
   height: 800px;
   width: 99.5%; }
 
-.nav_bar_basics, #nav-list li, #work-nav-bar li, #fun-nav-bar li {
+.nav-bar-basics, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
   display: inline;
   list-style-type: none;
   padding-right: 60px; }
 
-.clicker, #top_bar, #work-nav-bar li, #fun-nav-bar li {
+.add-cursor, #top_bar, #work_nav_bar li, #fun_nav_bar li {
   cursor: pointer; }
 
 /*---------------------------------------------*/
-/* Main Styles */
+/* Full Document Styles */
 /*---------------------------------------------*/
 body {
   padding: 0px;
@@ -51,7 +51,7 @@ body {
   width: 99.5%; }
 
 /*---------------------------------------------*/
-/* Top Bar */
+/* Top Navigation Bar */
 /*---------------------------------------------*/
 #top_bar {
   z-index: 101;
@@ -66,14 +66,14 @@ body {
 #logo {
   height: 80px; }
 
-#name {
+#my_name {
   position: absolute;
   top: 30px;
   left: 150px;
   font-size: 48px;
   color: white; }
 
-#nav-container {
+#nav_container {
   position: absolute;
   top: 70px;
   right: 15%;
@@ -95,7 +95,7 @@ body {
 /*---------------------------------------------*/
 /* All Areas */
 /*---------------------------------------------*/
-.area_title {
+.content_area_title {
   font-size: 30px; }
 
 .content_panel {
@@ -134,7 +134,7 @@ body {
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
-.panel-media a {
+.panel_media a {
   height: 500; }
 
 .gallery_image {
@@ -146,19 +146,22 @@ body {
 #work {
   background-color: #21d3bf; }
 
-#work-nav-container {
+#work_nav_container {
   position: absolute;
   top: 10px;
   right: 15%; }
 
 #work_panel1 {
-  opacity: 1.0; }
+  opacity: 1.0;
+  z-index: 5; }
 
 #work_panel2 {
-  opacity: 0; }
+  opacity: 0;
+  z-index: -1; }
 
 #work_panel3 {
-  opacity: 0; }
+  opacity: 0;
+  z-index: -1; }
 
 /*---------------------------------------------*/
 /* fun */
@@ -166,7 +169,7 @@ body {
 #fun {
   background-color: #cfc9e7; }
 
-#fun-nav-container {
+#fun_nav_container {
   position: absolute;
   top: 10px;
   right: 15%; }

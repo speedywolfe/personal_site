@@ -13,9 +13,9 @@
   <body>
     <div id="container">
       <div id="top_bar"><img id="logo" src="images/logo1.png">
-        <p id="name">Mitchell Wolfe</p>
-        <div id="nav-container">
-          <ul id="nav-list">
+        <p id="my_name">Mitchell Wolfe</p>
+        <div id="nav_container">
+          <ul id="nav_list">
             <li onclick="$.scrollTo('#undercover', 1000);">About me</li>
             <li onclick="$.scrollTo('#idea1', 1000);">Resume</li>
             <li onclick="$.scrollTo('#idea2', 1000);">Work</li>
@@ -29,13 +29,13 @@
       </div>
       <div id="idea1" class="thinking_bar"></div>
       <div id="resume">
-        <p class="area_title">Resume</p>
+        <p class="content_area_title">Resume</p>
       </div>
       <div id="idea2" class="thinking_bar"></div>
       <div id="work">
-        <p class="area_title">Work</p>
-        <div id="work-nav-container">
-          <ul id="work-nav-bar">
+        <p class="content_area_title">Work</p>
+        <div id="work_nav_container">
+          <ul id="work_nav_bar">
             <li onclick="switch_panel('work_panel', 1);">Panel 1</li>
             <li onclick="switch_panel('work_panel', 2);">Panel 2</li>
             <li onclick="switch_panel('work_panel', 3);">Panel 3</li>
@@ -55,21 +55,24 @@
       </div>
       <div id="idea3" class="thinking_bar"></div>
       <div id="fun">
-        <p class="area_title">Fun</p>
-        <div id="fun-nav-container">
-          <ul id="fun-nav-bar">
-            <li onclick="switch_panel('fun_panel', 1);">Panel 1</li>
-            <li onclick="switch_panel('fun_panel', 2);">Panel 2</li>
-            <li onclick="switch_panel('fun_panel', 3);">Panel 3</li>
+        <p class="content_area_title">Fun</p>
+        <div id="fun_nav_container">
+          <ul id="fun_nav_bar">
+            <li onclick="switch_panel('fun_panel', 1);">Digital Art</li>
+            <li onclick="switch_panel('fun_panel', 2);">Photography</li>
+            <li onclick="switch_panel('fun_panel', 3);">After Effects</li>
           </ul>
         </div>
         <div id="fun_content">
           <div id="fun_panel1" class="content_panel">
             <p>Digital Art</p>
-            <div id="lightbox-click" class="panel-media"><a title="calligraphy" rel="lightbox" href="images/digital_art/spines.png"><img src="images/digital_art/spines.png" class="gallery_image"></a><a title="marble" rel="lightbox" href="images/digital_art/marble.png"><img src="images/digital_art/marble.png" class="gallery_image"></a><a title="travels" rel="lightbox" href="images/digital_art/travels.png"><img src="images/digital_art/travels.png" class="gallery_image"></a><a title="twins" rel="lightbox" href="images/digital_art/twins.png"><img src="images/digital_art/twins.png" class="gallery_image"></a></div>
+            <div id="media_fun" class="panel_media"><a title="calligraphy" rel="lightbox" href="images/digital_art/spines.png"><img src="images/digital_art/spines.png" class="gallery_image"></a><a title="marble" rel="lightbox" href="images/digital_art/marble.png"><img src="images/digital_art/marble.png" class="gallery_image"></a><a title="travels" rel="lightbox" href="images/digital_art/travels.png"><img src="images/digital_art/travels.png" class="gallery_image"></a><a title="twins" rel="lightbox" href="images/digital_art/twins.png"><img src="images/digital_art/twins.png" class="gallery_image"></a></div>
           </div>
           <div id="fun_panel2" class="content_panel">
             <p>Photography</p>
+          </div>
+          <div id="fun_panel3" class="content_panel">
+            <p>After Effects</p>
           </div>
         </div>
       </div>
