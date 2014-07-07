@@ -1,116 +1,82 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-	  	<meta charset= "UTF-8">
-	  	<title> Mitchell Wolfe </title>
-
-	  	<link href= "css/global.css" rel= "stylesheet" type= "text/css">
-
-	  	<link href= "css/slimbox2.css" rel= "stylesheet" type= "text/css">
-
-	  	<script type= "text/javascript" src= "javascript/jquery-2.1.1.min.js"></script>
-	  	<script type= "text/javascript" src= "javascript/main.js"></script>
-	  	<script type= "text/javascript" src= "javascript/jquery.scrollTo.min.js"></script>
-		<script type= "text/javascript" src= "javascript/slimbox2.js"></script>
-	</head>
-	<body>
-		<div id ="container">
-			<div id = "top_bar">
-				<img id = "logo" src = "site_images/logo1.png">
-				<p id = "name"> Mitchell Wolfe </p>
-				<div id = "nav-container">
-					<ul id = "nav-list">
-						<li onclick="$.scrollTo('#undercover', 1000);"> 
-							About Me 
-						</li>
-						<li onclick="$.scrollTo('#idea1', 1000);"> 
-							Resume 
-						</li>
-						<li onclick="$.scrollTo('#idea2', 1000);"> 
-							Work 
-						</li>
-						<li onclick="$.scrollTo('#idea3', 1000);"> 
-							Fun 
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Projected Areas: about, resume, work, fun, contact -->
-			<div id = "undercover" class = "thinking_bar">
-			</div>
-			<div id = "about_me">
-				<img src="site_images/portrait.JPG">
-				<p id = "about_me_title" class = "area_title"> About Me </p>
-			</div>
-			<div id = "idea1" class = "thinking_bar">
-			</div>
-			<div id = "resume">
-				<p class = "area_title"> Resume </p>
-			</div>
-			<div id = "idea2" class = "thinking_bar">
-			</div>
-			<div id = "work">
-				<p class = "area_title"> Work </p>
-				<div id = "work-nav-container">
-					<ul id = "work-nav-bar">
-						<li onclick="switch_panel('work_panel', 1);"> 
-							Panel 1 
-						</li>
-						 <li onclick="switch_panel('work_panel', 2);"> 
-							Panel 2 
-						</li>
-						<li onclick="switch_panel('work_panel', 3);"> 
-							Panel 3 
-						</li>
-					</ul>
-				</div>
-				<div id = "work_content">
-					<div id = "work_panel1" class = "content_panel">
-						<a href="example.jpg" rel="lightbox" title = "caption goes here">
-					</div>
-					<div id = "work_panel2" class = "content_panel">
-						<p> Inside of Panel 2 </p>
-					</div>
-					<div id = "work_panel3" class = "content_panel">
-						<p> Inside of Panel 3 </p>
-					</div>
-				</div>
-			</div>
-			<div id = "idea3" class = "thinking_bar">
-			</div>
-			<div id = "fun">
-				<p class = "area_title"> Fun </p>
-				<div id = "fun-nav-container">
-					<ul id = "fun-nav-bar">
-						<li onclick="switch_panel('fun_panel', 1);"> 
-							Panel 1 
-						</li>
-						 <li onclick="switch_panel('fun_panel', 2);"> 
-							Panel 2 
-						</li>
-						<li onclick="switch_panel('fun_panel', 3);"> 
-							Panel 3 
-						</li>
-					</ul>
-				</div>
-				<div id = "fun_content">
-					<div id = "fun_panel1" class = "content_panel">
-						<p class = "content_description"> 
-							Digital Art 
-						</p>
-					</div>
-					<div id = "fun_panel2" class = "content_panel">
-						<p> Photography </p>
-					</div>
-					<div id = "fun_panel3" class = "content_panel">
-						<p> After Effects </p>
-					</div>
-				</div>
-			</div>		
-			<div id = "idea4" class = "thinking_bar">
-			</div>
-			<div id = "contact">
-			</div> 
-		</div>
-	</body>
+  <head>
+    <title>Mitchell Wolfe</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/slimbox2.css">
+    <script type="text/javascript" src="javascript/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <script type="text/javascript" src="javascript/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="javascript/slimbox2.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top_bar"><img id="logo" src="site_images/logo1.png">
+        <p id="name">Mitchell Wolfe</p>
+        <div id="nav-container">
+          <ul id="nav-list">
+            <li onclick="$.scrollTo('#undercover', 1000);">About me</li>
+            <li onclick="$.scrollTo('#idea1', 1000);">Resume</li>
+            <li onclick="$.scrollTo('#idea2', 1000);">Work</li>
+            <li onclick="$.scrollTo('#idea3', 1000);">Fun</li>
+          </ul>
+        </div>
+      </div>
+      <div id="undercover" class="thinking_bar"></div>
+      <div id="about_me"><img src="site_images/portrait.JPG">
+        <p id="about_me_title" class="area_title">About me</p>
+      </div>
+      <div id="idea1" class="thinking_bar"></div>
+      <div id="resume">
+        <p class="area_title">Resume</p>
+      </div>
+      <div id="idea2" class="thinking_bar"></div>
+      <div id="work">
+        <p class="area_title">Work</p>
+        <div id="work-nav-container">
+          <ul id="work-nav-bar">
+            <li onclick="switch_panel('work_panel', 1);">Panel 1</li>
+            <li onclick="switch_panel('work_panel', 2);">Panel 2</li>
+            <li onclick="switch_panel('work_panel', 3);">Panel 3</li>
+          </ul>
+        </div>
+        <div id="work_content">
+          <div id="work_panel1" class="content_panel">
+            <p>Inside of Panel 1</p>
+          </div>
+          <div id="work_panel2" class="content_panel">
+            <p>Inside of Panel 2</p>
+          </div>
+          <div id="work_panel3" class="content_panel">
+            <p>Inside of Panel 3</p>
+          </div>
+        </div>
+      </div>
+      <div id="idea3" class="thinking_bar"></div>
+      <div id="fun">
+        <p class="area_title">Fun</p>
+        <div id="fun-nav-container">
+          <ul id="fun-nav-bar">
+            <li onclick="switch_panel('fun_panel', 1);">Panel 1</li>
+            <li onclick="switch_panel('fun_panel', 2);">Panel 2</li>
+            <li onclick="switch_panel('fun_panel', 3);">Panel 3</li>
+          </ul>
+        </div>
+        <div id="fun_content">
+          <div id="fun_panel1" class="content_panel">
+            <p>Digital Art</p>
+          </div>
+          <div id="fun_panel2" class="content_panel">
+            <p>Photography</p>
+          </div>
+          <div id="fun_panel3" class="content_panel">
+            <p>AFter Effects</p>
+          </div>
+        </div>
+      </div>
+      <div id="idea4" class="thinking_bar"></div>
+      <div id="contact"></div>
+    </div>
+  </body>
 </html>
