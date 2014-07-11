@@ -11,7 +11,7 @@
   padding: 0px;
   margin: 0px; }
 
-.center-element, .area-Style, #about_me, #resume, #work, #fun, .thinking_bar {
+.center-element, .area-Style, #about_me, #resume, #work, #fun, .thinking_bar, .content_panel, #contact {
   margin-left: auto;
   margin-right: auto; }
 
@@ -28,7 +28,9 @@
 .area-Style, #about_me, #resume, #work, #fun {
   position: relative;
   height: 800px;
-  width: 99.5%; }
+  width: 98%;
+  background-color: #80848a;
+  box-shadow: 0px 0px 30px #3c3c3c; }
 
 .nav-bar-basics, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
   display: inline;
@@ -43,7 +45,7 @@
 /*---------------------------------------------*/
 body {
   padding: 0px;
-  background-color: black; }
+  background-color: #f7901e; }
 
 #container {
   position: relative;
@@ -58,27 +60,27 @@ body {
   width: 99.5%;
   height: 200px;
   position: fixed;
-  background-color: #d0d0d0;
+  background-color: white;
   border-style: solid;
-  border-width: 3px;
-  border-color: black; }
+  border-width: 1px;
+  border-color: #f7901e; }
 
 #logo {
-  height: 80px; }
+  height: 60px; }
 
 #my_name {
   position: absolute;
   top: 30px;
   left: 150px;
   font-size: 48px;
-  color: white; }
+  color: #f7901e; }
 
 #nav_container {
   position: absolute;
   top: 70px;
   right: 15%;
   font-size: 30px;
-  color: white; }
+  color: #f7901e; }
 
 /*---------------------------------------------*/
 /* thinking_bar */
@@ -87,10 +89,23 @@ body {
   height: 75px;
   width: 99.5%;
   position: relative;
-  background-color: black; }
+  background-color: #f7901e;
+  z-index: -1; }
 
 #undercover {
   height: 275px; }
+
+.thought_img_right {
+  float: right;
+  margin-right: 30%;
+  height: 50px;
+  margin-top: 10px; }
+
+.thought_img_left {
+  float: left;
+  margin-left: 30%;
+  height: 50px;
+  margin-top: 10px; }
 
 /*---------------------------------------------*/
 /* All Areas */
@@ -109,7 +124,6 @@ body {
 /* About Me */
 /*---------------------------------------------*/
 #about_me {
-  background-color: #21d3bf;
   height: 1000px; }
 
 #about_me_title {
@@ -128,24 +142,20 @@ body {
 /*---------------------------------------------*/
 /* Resume */
 /*---------------------------------------------*/
-#resume {
-  background-color: #cfc9e7; }
-
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
 .panel_media a {
-  height: 500; }
+  height: 200px;
+  padding: 10px;
+  float: left; }
 
 .gallery_image {
-  height: 300px; }
+  height: 200px; }
 
 /*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
-#work {
-  background-color: #21d3bf; }
-
 #work_nav_container {
   position: absolute;
   top: 10px;
@@ -166,9 +176,6 @@ body {
 /*---------------------------------------------*/
 /* fun */
 /*---------------------------------------------*/
-#fun {
-  background-color: #cfc9e7; }
-
 #fun_nav_container {
   position: absolute;
   top: 10px;
@@ -191,6 +198,6 @@ body {
 /*---------------------------------------------*/
 #contact {
   position: relative;
-  width: 99.5%;
+  width: 98%;
   height: 140px;
-  background-color: white; }
+  background-color: #3c3c3c; }

@@ -326,62 +326,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/jade\/about.html": {
-		"fileType": 8192,
-		"ignore": 1,
+	"\/images\/thought_bubbles.png": {
+		"fileType": 32768,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 3449,
+		"inputAbbreviatedPath": "\/images\/thought_bubbles.png",
+		"outputAbbreviatedPath": "\/images\/thought_bubbles.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
-	"\/jade\/about.jade": {
+	"\/images\/thought_bubbles_flip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3456,
+		"inputAbbreviatedPath": "\/images\/thought_bubbles_flip.png",
+		"outputAbbreviatedPath": "\/images\/thought_bubbles_flip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/jade\/_about.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/about.jade",
-		"outputAbbreviatedPath": "\/jade\/about.html",
+		"inputAbbreviatedPath": "\/jade\/_about.jade",
+		"outputAbbreviatedPath": "\/jade\/_about.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/fun.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/fun.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/jade\/fun.jade": {
+	"\/jade\/_fun.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/fun.jade",
-		"outputAbbreviatedPath": "\/jade\/fun.html",
+		"inputAbbreviatedPath": "\/jade\/_fun.jade",
+		"outputAbbreviatedPath": "\/jade\/_fun.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/jade\/head.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/head.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/jade\/head.jade": {
+	"\/jade\/_head.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/head.jade",
-		"outputAbbreviatedPath": "\/jade\/head.html",
+		"inputAbbreviatedPath": "\/jade\/_head.jade",
+		"outputAbbreviatedPath": "\/jade\/_head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/_resume.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/_resume.jade",
+		"outputAbbreviatedPath": "\/jade\/_resume.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/_work.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/_work.jade",
+		"outputAbbreviatedPath": "\/jade\/_work.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -395,46 +412,6 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/jade\/resume.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/resume.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/jade\/resume.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/resume.jade",
-		"outputAbbreviatedPath": "\/jade\/resume.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/jade\/work.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/work.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/jade\/work.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/work.jade",
-		"outputAbbreviatedPath": "\/jade\/work.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/javascript\/jquery-2.1.1.min.js": {

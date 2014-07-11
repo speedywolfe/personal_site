@@ -6,9 +6,9 @@ var current_panel_fun = 1;  // current panel of play slider
 /*----------------------------------------------*/
 function barSquish(scroll) {
 	var current_Scroll = scroll;
-	if(current_Scroll < 121) { 
+	if(current_Scroll < 141) { 
 		$("#top_bar").css("height", 200 - current_Scroll);
-		$("#name").css("top", 30 - (current_Scroll/2));
+		$("#my_name").css("top", 30 - (current_Scroll/2));
 		$("#nav_container").css("top", 70 - (current_Scroll/2));
 	}
 }

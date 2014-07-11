@@ -1,6 +1,6 @@
 doctype html
 html
-	include head
+	include _head
 	body
 		div(id="container")
 			//- Top Navigation Bar
@@ -14,24 +14,25 @@ html
 						li(onclick="$.scrollTo('#idea2', 1000);") Work
 						li(onclick="$.scrollTo('#idea3', 1000);") Fun
 			div(id="undercover" class="thinking_bar")
+					img(class="thought_img_right" src="images/thought_bubbles.png")
 
 			//- About Me Section
-			include about
+			include _about
 
-			div(id="idea1" class="thinking_bar") 
+			div(id="idea1" class="thinking_bar")
 
 			//- Resume Section
-			include resume
+			include _resume
 
-			div(id="idea2" class="thinking_bar") 
+			div(id="idea2" class="thinking_bar")
 
 			//- Work Section
-			include work
+			include _work
 			
 			div(id="idea3" class="thinking_bar")
 
 			//- Fun Sction
-			include fun
+			include _fun
 
 			div(id="idea4" class="thinking_bar")
 
