@@ -11,10 +11,16 @@ function barSquish(scroll) {
 		$("#my_name").css("top", 30 - (current_Scroll/2));
 		$("#nav_container").css("top", 70 - (current_Scroll/2));
 	}
+	// Make sure top bar is correct height even if you scroll too fast or start at the bottom
+	else {
+		$("#top_bar").css("height", 59);
+		$("#my_name").css("top", -39);
+		$("#nav_container").css("top", 0);
+	}
 }
 $(window).scroll(function() {
 	var scroll_value = $(document).scrollTop().valueOf();
-	barSquish(scroll_value); 
+	barSquish(scroll_value);
 });
 
 /*----------------------------------------------*/

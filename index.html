@@ -16,15 +16,15 @@
         <p id="my_name">Mitchell Wolfe</p>
         <div id="nav_container">
           <ul id="nav_list">
-            <li onclick="$.scrollTo('#undercover', 1000);">About me</li>
-            <li onclick="$.scrollTo('#idea1', 1000);">Resume</li>
-            <li onclick="$.scrollTo('#idea2', 1000);">Work</li>
-            <li onclick="$.scrollTo('#idea3', 1000);">Fun</li>
+            <li onclick="$.scrollTo('210', 1000);">About me</li>
+            <li onclick="$.scrollTo('1095', 1000);">Resume</li>
+            <li onclick="$.scrollTo('1985', 1000);">Work</li>
+            <li onclick="$.scrollTo('2865', 1000);">Fun</li>
           </ul>
         </div>
       </div>
       <div id="undercover" class="thinking_bar"><img src="images/thought_bubbles.png" class="thought_img_right"></div>
-      <div id="about_me"><img src="images/portrait.JPG">
+      <div id="about_me">
         <p id="about_me_title" class="content_area_title">About me</p>
       </div>
       <div id="idea1" class="thinking_bar"></div>
@@ -36,14 +36,14 @@
         <p class="content_area_title">Work</p>
         <div id="work_nav_container">
           <ul id="work_nav_bar">
-            <li onclick="switch_panel('work_panel', 1);">Panel 1</li>
+            <li onclick="switch_panel('work_panel', 1);">Computer Graphics</li>
             <li onclick="switch_panel('work_panel', 2);">Panel 2</li>
             <li onclick="switch_panel('work_panel', 3);">Panel 3</li>
           </ul>
         </div>
         <div id="work_content">
           <div id="work_panel1" class="content_panel">
-            <p>Inside of Panel 1</p>
+            <p>Computer Graphics</p><iframe width="800" height="600" src="http://www.youtube.com/embed/1-EfT6M90CY?rel=0" frameborder="0" allowfullscreen> </iframe>
           </div>
           <div id="work_panel2" class="content_panel">
             <p>Inside of Panel 2</p>
@@ -66,18 +66,21 @@
         <div id="fun_content">
           <div id="fun_panel1" class="content_panel">
             <p>Digital Art</p>
-            <div id="media_fun" class="panel_media"><a title="calligraphy" rel="lightbox-gal1" href="images/digital_art/spines.png"><img src="images/digital_art/spines.png" class="gallery_image"></a><a title="marble" rel="lightbox-gal1" href="images/digital_art/marble.png"><img src="images/digital_art/marble.png" class="gallery_image"></a><a title="travels" rel="lightbox-gal1" href="images/digital_art/travels.png"><img src="images/digital_art/travels.png" class="gallery_image"></a><a title="twins" rel="lightbox-gal1" href="images/digital_art/twins.png"><img src="images/digital_art/twins.png" class="gallery_image"></a></div>
+            <div id="dig_art" class="panel_media"><a title="calligraphy" rel="lightbox-gal1" href="images/digital_art/spines.png"><img src="images/digital_art/spines.png" class="gallery_image"></a><a title="marble" rel="lightbox-gal1" href="images/digital_art/marble.png"><img src="images/digital_art/marble.png" class="gallery_image"></a><a title="travels" rel="lightbox-gal1" href="images/digital_art/travels.png"><img src="images/digital_art/travels.png" class="gallery_image"></a><a title="twins" rel="lightbox-gal1" href="images/digital_art/twins.png"><img src="images/digital_art/twins.png" class="gallery_image"></a></div>
           </div>
           <div id="fun_panel2" class="content_panel">
             <p>Photography</p>
+            <div id="photography" class="panel_media"><a title="Golden Gate Bridge" rel="lightbox-gal2" href="images/photography/bridge.JPG"><img src="images/photography/bridge.JPG" class="gallery_image"></a><a title="Niagra Falls" rel="lightbox-gal2" href="images/photography/falls.JPG"><img src="images/photography/falls.JPG" class="gallery_image"></a><a title="Light through the Rocks" rel="lightbox-gal2" href="images/photography/light.JPG"><img src="images/photography/light.JPG" class="gallery_image"></a><a title="Turtle in the Virgin Islands" rel="lightbox-gal2" href="images/photography/turtle.JPG"><img src="images/photography/turtle.JPG" class="gallery_image"></a></div>
           </div>
           <div id="fun_panel3" class="content_panel">
-            <p>After Effects</p>
+            <p>After Effects</p><iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div id="idea4" class="thinking_bar"></div>
-      <div id="contact"></div>
+      <div id="contact">
+        <p id="contact_title" class="content_area_title">Contact</p>
+      </div>
     </div>
   </body>
 </html>

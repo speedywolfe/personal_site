@@ -18,7 +18,8 @@ $new_gray: #80848a;
 $new_dark_gray: #3c3c3c;
 $new_green: #37F858;
 
-$element_width: 98%;
+$element_width: 99.86%;
+$element_height: 800px;
 
 /*---------------------------------------------*/
 /* Extenders */
@@ -49,7 +50,7 @@ $element_width: 98%;
 	@extend .center-element;
 	@extend .base-Style;
 	position: relative;
-	height: 800px;
+	height: $element_height;
 	width: $element_width;
 	background-color: $new_gray;
 	box-shadow: 0px 0px 30px $new_dark_gray;
@@ -169,7 +170,11 @@ body {
 	left: 0px;
 	width: 99.5%;
 	height: 90%;
-	// background-color: white;
+}
+
+.content_panel p {
+	font-size: 20px;
+	padding-left: 50px;
 }
  
 /*---------------------------------------------*/
@@ -177,7 +182,6 @@ body {
 /*---------------------------------------------*/
 #about_me {
 	@extend .area-Style;
-	height: 1000px;
 }
 
 #about_me_title {
@@ -193,7 +197,6 @@ body {
 	left: 0px; 
 	height: 100%;
 	width: 100%;
-	// z-index: 2;
 }
 
 /*---------------------------------------------*/
