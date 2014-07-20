@@ -7,13 +7,9 @@
 /*---------------------------------------------*/
 /* Extenders */
 /*---------------------------------------------*/
-.no-Space, body, #container {
+.no-Space, #container {
   padding: 0px;
   margin: 0px; }
-
-.center-element, .area-Style, #about_me, #resume, #work, #fun, .thinking_bar, .content_panel, #contact {
-  margin-left: auto;
-  margin-right: auto; }
 
 .vertically-centered, #logo {
   margin: auto;
@@ -22,48 +18,35 @@
   bottom: 0;
   left: 30px; }
 
-.base-Style, .area-Style, #about_me, #resume, #work, #fun, #top_bar, .content_area_title, .content_panel {
-  padding: 5px; }
-
-.area-Style, #about_me, #resume, #work, #fun {
-  position: relative;
-  height: 800px;
-  width: 99.86%;
-  background-color: #80848a;
-  box-shadow: 0px 0px 30px #3c3c3c; }
-
 .nav-bar-basics, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
   display: inline;
   list-style-type: none;
   padding-right: 60px; }
 
-.add-cursor, #top_bar, #work_nav_bar li, #fun_nav_bar li {
+.add-cursor, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
   cursor: pointer; }
 
 /*---------------------------------------------*/
 /* Full Document Styles */
 /*---------------------------------------------*/
 body {
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #f7901e; }
 
 #container {
-  position: relative;
-  height: 1000px;
-  width: 99.5%; }
+  position: relative; }
 
 /*---------------------------------------------*/
 /* Top Navigation Bar */
 /*---------------------------------------------*/
 #top_bar {
   z-index: 101;
-  width: 99.5%;
+  width: 100%;
   height: 200px;
   position: fixed;
   background-color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #f7901e; }
+  overflow: hidden; }
 
 #logo {
   height: 60px; }
@@ -82,34 +65,20 @@ body {
   font-size: 30px;
   color: #f7901e; }
 
-/*---------------------------------------------*/
-/* thinking_bar */
-/*---------------------------------------------*/
-.thinking_bar {
-  height: 75px;
-  width: 99.5%;
+#undercover {
+  height: 200px;
+  width: 100%;
   position: relative;
-  background-color: #f7901e;
+  background-color: black;
   z-index: -1; }
 
-#undercover {
-  height: 275px; }
-
-.thought_img_right {
-  float: right;
-  margin-right: 30%;
-  height: 50px;
-  margin-top: 10px; }
-
-.thought_img_left {
-  float: left;
-  margin-left: 30%;
-  height: 50px;
-  margin-top: 10px; }
-
 /*---------------------------------------------*/
-/* All Areas */
+/* All Content Areas */
 /*---------------------------------------------*/
+.area-Style, #about_me, #resume, #work, #fun {
+  position: relative;
+  height: 800px; }
+
 .content_area_title {
   font-size: 30px; }
 
@@ -117,7 +86,6 @@ body {
   position: absolute;
   top: 10%;
   left: 0px;
-  width: 99.5%;
   height: 90%; }
 
 .content_panel p {
@@ -127,6 +95,9 @@ body {
 /*---------------------------------------------*/
 /* About Me */
 /*---------------------------------------------*/
+#about_me {
+  background-color: #f7901e; }
+
 #about_me_title {
   position: absolute;
   top: 5px;
@@ -143,6 +114,9 @@ body {
 /*---------------------------------------------*/
 /* Resume */
 /*---------------------------------------------*/
+#resume {
+  background-color: white; }
+
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
@@ -157,6 +131,9 @@ body {
 /*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
+#work {
+  background-color: #f7901e; }
+
 #work_nav_container {
   position: absolute;
   top: 10px;
@@ -177,6 +154,9 @@ body {
 /*---------------------------------------------*/
 /* fun */
 /*---------------------------------------------*/
+#fun {
+  background-color: white; }
+
 #fun_nav_container {
   position: absolute;
   top: 10px;
@@ -199,6 +179,5 @@ body {
 /*---------------------------------------------*/
 #contact {
   position: relative;
-  width: 99.86%;
   height: 140px;
   background-color: #3c3c3c; }

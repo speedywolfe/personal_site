@@ -17,6 +17,7 @@ function barSquish(scroll) {
 		$("#my_name").css("top", -39);
 		$("#nav_container").css("top", 0);
 	}
+	console.log(current_Scroll);
 }
 $(window).scroll(function() {
 	var scroll_value = $(document).scrollTop().valueOf();

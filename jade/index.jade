@@ -9,32 +9,23 @@ html
 				p(id="my_name") Mitchell Wolfe
 				div(id="nav_container")
 					ul(id="nav_list")
-						li(onclick="$.scrollTo('210', 1000);") About me
-						li(onclick="$.scrollTo('1095', 1000);") Resume
-						li(onclick="$.scrollTo('1985', 1000);") Work
-						li(onclick="$.scrollTo('2865', 1000);") Fun
-			div(id="undercover" class="thinking_bar")
-					img(class="thought_img_right" src="images/thought_bubbles.png")
+						li(onclick="$.scrollTo('155', 1000);") About me
+						li(onclick="$.scrollTo('950', 1000);") Resume
+						li(onclick="$.scrollTo('1765', 1000);") Work
+						li(onclick="$.scrollTo('2565', 1000);") Fun
+			div(id="undercover")
 
 			//- About Me Section
 			include _about
 
-			div(id="idea1" class="thinking_bar")
-
 			//- Resume Section
 			include _resume
 
-			div(id="idea2" class="thinking_bar")
-
 			//- Work Section
 			include _work
-			
-			div(id="idea3" class="thinking_bar")
 
 			//- Fun Sction
 			include _fun
-
-			div(id="idea4" class="thinking_bar")
 
 			//- Contact
 			include _contact
