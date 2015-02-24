@@ -154,12 +154,29 @@ body {
 	left: 5%;
 	width: 90%;
 	height: 90%;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .content_panel p {
 	font-size: 20px;
 	padding-left: 50px;
+}
+
+.item {
+	height: 300px;
+	float: left;
+}
+
+.item p {
+	font-size: 14px;
+}
+
+.item img {
+	margin: auto;
+}
+
+.panel_media {
+
 }
  
 /*---------------------------------------------*/
@@ -188,7 +205,7 @@ body {
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
-$gallery_image_height: 200px;
+$gallery_image_height: 150px;
 
 .panel_media a {
 	height: $gallery_image_height;
@@ -249,7 +266,6 @@ $gallery_image_height: 200px;
 
 #fun_content img {
 	@extend .main-image;
-	float: left;
 }
 
 #fun_nav_bar li {

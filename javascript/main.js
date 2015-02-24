@@ -1,6 +1,13 @@
 var current_panel_work = 1; // current panel of work slider
 var current_panel_fun = 1;  // current panel of play slider
 
+
+/*----------------------------------------------*/
+/* random other javascript funtions */
+/*----------------------------------------------*/
+$(document).ready(function(){
+	$(this).scrollTop(0);
+});
 /*----------------------------------------------*/
 /* Top Bar Squishing and growing based on Scroll*/
 /*----------------------------------------------*/
@@ -14,8 +21,8 @@ function barSquish(scroll) {
 	// Make sure top bar is correct height even if you scroll too fast or start at the bottom
 	else {
 		$("#top_bar").css("height", 59);
-		$("#my_name").css("top", -39);
-		// $("#nav_container").css("top", 0);
+		$("#my_name").css("top", -69);
+		$("#nav_container").css("top", -69);
 	}
 	console.log(current_Scroll);
 }

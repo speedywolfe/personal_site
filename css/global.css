@@ -118,11 +118,21 @@ body {
   left: 5%;
   width: 90%;
   height: 90%;
-  overflow: hidden; }
+  overflow: auto; }
 
 .content_panel p {
   font-size: 20px;
   padding-left: 50px; }
+
+.item {
+  height: 300px;
+  float: left; }
+
+.item p {
+  font-size: 14px; }
+
+.item img {
+  margin: auto; }
 
 /*---------------------------------------------*/
 /* About Me */
@@ -141,12 +151,12 @@ body {
 /* Gallery */
 /*---------------------------------------------*/
 .panel_media a {
-  height: 200px;
+  height: 150px;
   padding: 10px;
   float: left; }
 
 .gallery_image {
-  height: 200px; }
+  height: 150px; }
 
 /*---------------------------------------------*/
 /* work */
@@ -175,9 +185,6 @@ body {
   position: absolute;
   top: 10px;
   right: 15%; }
-
-#fun_content img {
-  float: left; }
 
 #fun_panel1 {
   opacity: 1.0;
