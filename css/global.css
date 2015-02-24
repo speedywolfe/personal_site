@@ -11,20 +11,23 @@
   padding: 0px;
   margin: 0px; }
 
-.vertically-centered, #logo {
+.vertically-centered, .primary, #about_me, #resume, #work, #fun {
   margin: auto;
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 30px; }
+  bottom: 0; }
 
-.nav-bar-basics, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
+.nav-bar-basics, .nav_list li, #work_nav_bar li, #fun_nav_bar li {
   display: inline;
   list-style-type: none;
-  padding-right: 60px; }
+  padding-right: 180px; }
 
-.add-cursor, #nav_list li, #work_nav_bar li, #fun_nav_bar li {
+.add-cursor, .nav_list li, #work_nav_bar li, #fun_nav_bar li {
   cursor: pointer; }
+
+.main-image, #fun_content img {
+  padding: 5px;
+  height: 150px; }
 
 /*---------------------------------------------*/
 /* Full Document Styles */
@@ -32,10 +35,18 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f7901e; }
+  background-color: #16669f; }
 
 #container {
   position: relative; }
+
+@font-face {
+  font-family: liberation;
+  src: url(../resources/liberation.ttf); }
+* {
+  font-family: "liberation", "Arial", sans-serif;
+  font-weight: 100;
+  font-stretch: normal; }
 
 /*---------------------------------------------*/
 /* Top Navigation Bar */
@@ -45,48 +56,69 @@ body {
   width: 100%;
   height: 200px;
   position: fixed;
-  background-color: white;
-  overflow: hidden; }
-
-#logo {
-  height: 60px; }
-
-#my_name {
-  position: absolute;
-  top: 30px;
-  left: 150px;
-  font-size: 48px;
-  color: #f7901e; }
+  background-color: #16669f;
+  overflow: hidden;
+  color: white; }
 
 #nav_container {
-  position: absolute;
-  top: 70px;
-  right: 15%;
-  font-size: 30px;
-  color: #f7901e; }
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  font-size: 30px; }
+
+#nav_list_left {
+  position: relative;
+  top: 0px;
+  float: left; }
+
+#nav_list_center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: relative;
+  top: 15px;
+  width: 350px;
+  font-size: 48px; }
+
+#nav_list_right {
+  position: relative;
+  right: -130px;
+  top: -105px;
+  float: right; }
 
 #undercover {
   height: 200px;
   width: 100%;
   position: relative;
-  background-color: black;
+  background-color: white;
   z-index: -1; }
 
 /*---------------------------------------------*/
 /* All Content Areas */
 /*---------------------------------------------*/
-.area-Style, #about_me, #resume, #work, #fun {
+.primary, #about_me, #resume, #work, #fun {
   position: relative;
-  height: 800px; }
+  height: 800px;
+  width: 95%;
+  background-color: white;
+  color: #16669f; }
 
 .content_area_title {
-  font-size: 30px; }
+  width: 50%;
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  z-index: 5; }
 
 .content_panel {
   position: absolute;
   top: 10%;
-  left: 0px;
-  height: 90%; }
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  overflow: hidden; }
 
 .content_panel p {
   font-size: 20px;
@@ -95,15 +127,6 @@ body {
 /*---------------------------------------------*/
 /* About Me */
 /*---------------------------------------------*/
-#about_me {
-  background-color: #f7901e; }
-
-#about_me_title {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  z-index: 5; }
-
 #about_me img {
   position: absolute;
   top: 0px;
@@ -114,9 +137,6 @@ body {
 /*---------------------------------------------*/
 /* Resume */
 /*---------------------------------------------*/
-#resume {
-  background-color: white; }
-
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
@@ -131,9 +151,6 @@ body {
 /*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
-#work {
-  background-color: #f7901e; }
-
 #work_nav_container {
   position: absolute;
   top: 10px;
@@ -154,13 +171,13 @@ body {
 /*---------------------------------------------*/
 /* fun */
 /*---------------------------------------------*/
-#fun {
-  background-color: white; }
-
 #fun_nav_container {
   position: absolute;
   top: 10px;
   right: 15%; }
+
+#fun_content img {
+  float: left; }
 
 #fun_panel1 {
   opacity: 1.0;
@@ -179,5 +196,5 @@ body {
 /*---------------------------------------------*/
 #contact {
   position: relative;
-  height: 140px;
-  background-color: #3c3c3c; }
+  height: 70px;
+  background-color: white; }

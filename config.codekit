@@ -29,200 +29,387 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/digital_art\/calligraphy.png": {
+	"\/images\/digital_art\/full\/calligraphy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/calligraphy.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/calligraphy.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/calligraphy.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/calligraphy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/color_wheel.png": {
+	"\/images\/digital_art\/full\/color_wheel.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/color_wheel.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/color_wheel.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/color_wheel.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/color_wheel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/cylinder_night.png": {
+	"\/images\/digital_art\/full\/cylinder_night.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/cylinder_night.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/cylinder_night.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/cylinder_night.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/cylinder_night.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/dark_ribbons.png": {
+	"\/images\/digital_art\/full\/dark_ribbons.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/dark_ribbons.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/dark_ribbons.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/dark_ribbons.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/dark_ribbons.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/detrimental.png": {
+	"\/images\/digital_art\/full\/detrimental.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.19157e+06,
-		"inputAbbreviatedPath": "\/images\/digital_art\/detrimental.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/detrimental.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/detrimental.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/detrimental.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/haunting_blurScreenSnapz001.png": {
+	"\/images\/digital_art\/full\/haunting_blurScreenSnapz001.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.87399e+06,
-		"inputAbbreviatedPath": "\/images\/digital_art\/haunting_blurScreenSnapz001.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/haunting_blurScreenSnapz001.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/haunting_blurScreenSnapz001.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/haunting_blurScreenSnapz001.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/marble.png": {
+	"\/images\/digital_art\/full\/marble.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 711256,
-		"inputAbbreviatedPath": "\/images\/digital_art\/marble.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/marble.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/marble.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/marble.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/motherboard.png": {
+	"\/images\/digital_art\/full\/motherboard.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 803558,
-		"inputAbbreviatedPath": "\/images\/digital_art\/motherboard.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/motherboard.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/motherboard.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/motherboard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/of_squares.png": {
+	"\/images\/digital_art\/full\/of_squares.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/of_squares.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/of_squares.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/of_squares.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/of_squares.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/sequential1.jpg": {
+	"\/images\/digital_art\/full\/sequential1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/sequential1.jpg",
-		"outputAbbreviatedPath": "\/images\/digital_art\/sequential1.jpg",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/sequential1.jpg",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/sequential1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/sequential2.jpg": {
+	"\/images\/digital_art\/full\/sequential2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/sequential2.jpg",
-		"outputAbbreviatedPath": "\/images\/digital_art\/sequential2.jpg",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/sequential2.jpg",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/sequential2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/sequential3.jpg": {
+	"\/images\/digital_art\/full\/sequential3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/sequential3.jpg",
-		"outputAbbreviatedPath": "\/images\/digital_art\/sequential3.jpg",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/sequential3.jpg",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/sequential3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/sharp_ooze.png": {
+	"\/images\/digital_art\/full\/sharp_ooze.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 769217,
-		"inputAbbreviatedPath": "\/images\/digital_art\/sharp_ooze.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/sharp_ooze.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/sharp_ooze.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/sharp_ooze.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/spines.png": {
+	"\/images\/digital_art\/full\/spines.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 478672,
-		"inputAbbreviatedPath": "\/images\/digital_art\/spines.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/spines.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/spines.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/spines.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/star_shower.png": {
+	"\/images\/digital_art\/full\/star_shower.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 263461,
-		"inputAbbreviatedPath": "\/images\/digital_art\/star_shower.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/star_shower.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/star_shower.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/star_shower.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/the_grid.png": {
+	"\/images\/digital_art\/full\/the_grid.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 967598,
-		"inputAbbreviatedPath": "\/images\/digital_art\/the_grid.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/the_grid.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/the_grid.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/the_grid.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/travels.png": {
+	"\/images\/digital_art\/full\/travels.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.03354e+06,
-		"inputAbbreviatedPath": "\/images\/digital_art\/travels.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/travels.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/travels.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/travels.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/digital_art\/twins.png": {
+	"\/images\/digital_art\/full\/twins.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/digital_art\/twins.png",
-		"outputAbbreviatedPath": "\/images\/digital_art\/twins.png",
+		"inputAbbreviatedPath": "\/images\/digital_art\/full\/twins.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/full\/twins.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/bleeding_edge300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219822,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/bleeding_edge300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/bleeding_edge300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/bleeding_out300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112817,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/bleeding_out300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/bleeding_out300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/calligraphy300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171860,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/calligraphy300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/calligraphy300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/color_wheel300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157801,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/color_wheel300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/color_wheel300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/condition300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138747,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/condition300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/condition300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/cylinder_night300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60364,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/cylinder_night300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/cylinder_night300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/detrimental300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 446044,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/detrimental300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/detrimental300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/haunting_blur300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/haunting_blur300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/haunting_blur300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/marble300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103805,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/marble300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/marble300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/motherboard300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/motherboard300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/motherboard300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/of_squares300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92078,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/of_squares300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/of_squares300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/sharp_ooze300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/sharp_ooze300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/sharp_ooze300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/spines300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/spines300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/spines300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/star_shower300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/star_shower300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/star_shower300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/the_grid300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/the_grid300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/the_grid300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/travels300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/travels300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/travels300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/digital_art\/thumbs\/twins300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/digital_art\/thumbs\/twins300.png",
+		"outputAbbreviatedPath": "\/images\/digital_art\/thumbs\/twins300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

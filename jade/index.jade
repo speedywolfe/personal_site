@@ -5,14 +5,15 @@ html
 		div(id="container")
 			//- Top Navigation Bar
 			div(id="top_bar")
-				img(id="logo" src="images/logo1.png")
-				p(id="my_name") Mitchell Wolfe
 				div(id="nav_container")
-					ul(id="nav_list")
-						li(onclick="$.scrollTo('155', 1000);") About me
-						li(onclick="$.scrollTo('950', 1000);") Resume
-						li(onclick="$.scrollTo('1765', 1000);") Work
-						li(onclick="$.scrollTo('2565', 1000);") Fun
+					ul(id="nav_list_left" class="nav_list")
+						li(onclick="$.scrollTo('0', 1000);") About me
+						li(onclick="$.scrollTo('945', 1000);") Resume
+					div(id="nav_list_center")
+						p(id="my_name") Mitchell Wolfe
+					ul(id="nav_list_right" class="nav_list")
+						li(onclick="$.scrollTo('1772', 1000);") Work
+						li(onclick="$.scrollTo('2601', 1000);") Fun
 			div(id="undercover")
 
 			//- About Me Section

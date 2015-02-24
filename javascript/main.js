@@ -9,13 +9,13 @@ function barSquish(scroll) {
 	if(current_Scroll < 141) { 
 		$("#top_bar").css("height", 200 - current_Scroll);
 		$("#my_name").css("top", 30 - (current_Scroll/2));
-		$("#nav_container").css("top", 70 - (current_Scroll/2));
+		$("#nav_container").css("top", -(current_Scroll/2));
 	}
 	// Make sure top bar is correct height even if you scroll too fast or start at the bottom
 	else {
 		$("#top_bar").css("height", 59);
 		$("#my_name").css("top", -39);
-		$("#nav_container").css("top", 0);
+		// $("#nav_container").css("top", 0);
 	}
 	console.log(current_Scroll);
 }
