@@ -1,15 +1,19 @@
 div(id="work")
-	p(class="content_area_title") Work
-	div(id="work_nav_container")
-		ul(id="work_nav_bar")
-			li(onclick="switch_panel('work_panel', 1);") Computer Graphics
-			li(onclick="switch_panel('work_panel', 2);") Panel 2
-			li(onclick="switch_panel('work_panel', 3);") Panel 3
+	
+	div(id="work_nav_container" class="content_nav_container")
+		p(class="content_area_title") Work
+		p(id="" onclick="switch_panel('work_panel', 1, '');") Computer Graphics
+		p(id="graph_design" onclick="switch_panel('work_panel', 2, 'graph_design');") Graphic Design
+		p(id="comp_graph" onclick="switch_panel('work_panel', 3, 'comp_graph');") Computer Graphics
 	div(id="work_content")
 		div(id="work_panel1" class="content_panel")
+			p Inside of Panel 1
+		div(id="work_panel2" class="content_panel")
+			p Graphic Design
+			div(class="item")
+					a(title="Light My Way" rel="lightbox-gal2" href="images/graphic_design/full/ubuntu.png")
+						img(class="gallery_image" src="images/photography/thumbs/ubuntu300.png")
+					p typography poster
+		div(id="work_panel3" class="content_panel")
 			p Computer Graphics
 			<iframe width="800" height="600" src="http://www.youtube.com/embed/1-EfT6M90CY?rel=0" frameborder="0" allowfullscreen> </iframe>
-		div(id="work_panel2" class="content_panel")
-			p Inside of Panel 2
-		div(id="work_panel3" class="content_panel")
-			p Inside of Panel 3

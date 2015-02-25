@@ -5,16 +5,12 @@ html
 		div(id="container")
 			//- Top Navigation Bar
 			div(id="top_bar")
-				div(id="nav_container")
-					ul(id="nav_list_left" class="nav_list")
-						li(onclick="$.scrollTo('0', 1000);") About me
-						li(onclick="$.scrollTo('1000', 1000);") Resume
-					div(id="nav_list_center")
-						p(id="my_name") Mitchell Wolfe
-					ul(id="nav_list_right" class="nav_list")
-						li(onclick="$.scrollTo('1830', 1000);") Work
-						li(onclick="$.scrollTo('3500', 1500);") Fun
-			div(id="undercover")
+				p(onclick="$.scrollTo('0', 1000);") About me
+				p(onclick="$.scrollTo('970', 1000);") Resume
+				p(id="my_name") Mitchell Wolfe
+				p(onclick="$.scrollTo('1800', 1000);") Work
+				p(onclick="$.scrollTo('2630', 1000);") Fun
+			//- div(id="undercover")
 
 			//- About Me Section
 			include _about

@@ -1,10 +1,9 @@
 div(id="fun")
-	p(class="content_area_title") Fun
-	div(id="fun_nav_container")
-		ul(id="fun_nav_bar")
-			li(id="gen_art" onclick="switch_panel('fun_panel', 1);") Generative Art
-			li(id="photography" onclick="switch_panel('fun_panel', 2);") Photography
-			li(id="effects" onclick="switch_panel('fun_panel', 3);") After Effects
+	div(id="fun_nav_container" class="content_nav_container")
+		p(class="content_area_title") Fun
+		p(id="gen_art" onclick="switch_panel('fun_panel', 1, 'gen_art');") Generative Art
+		p(id="photography" onclick="switch_panel('fun_panel', 2, 'photography');") Photography
+		p(id="effects" onclick="switch_panel('fun_panel', 3 ,'effects');") After Effects
 	div(id="fun_content")
 		div(id="fun_panel1" class="content_panel")
 			p Generative Art
@@ -49,14 +48,31 @@ div(id="fun")
 		div(id="fun_panel2" class="content_panel")
 			p Photography
 			div(id="photography" class="panel_media")
-				a(title="Golden Gate Bridge" rel="lightbox-gal2" href="images/photography/bridge.JPG") 
-					img(class="gallery_image" src="images/photography/bridge.JPG")
-				a(title="Niagra Falls" rel="lightbox-gal2" href="images/photography/falls.JPG")
-					img(class="gallery_image" src="images/photography/falls.JPG")
-				a(title="Light through the Rocks" rel="lightbox-gal2" href="images/photography/light.JPG")
-					img(class="gallery_image" src="images/photography/light.JPG")
-				a(title="Turtle in the Virgin Islands" rel="lightbox-gal2" href="images/photography/turtle.JPG")
-					img(class="gallery_image" src="images/photography/turtle.JPG")
+				div(class="item")
+					a(title="Golden Gate Bridge" rel="lightbox-gal2" href="images/photography/full/bridge.JPG") 
+						img(class="gallery_image" src="images/photography/thumbs/bridge300.JPG")
+				div(class="item")
+					a(title="Niagra Falls" rel="lightbox-gal2" href="images/photography/full/falls.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/falls300.JPG")
+				div(class="item")
+					a(title="Light through the Rocks" rel="lightbox-gal2" href="images/photography/full/light.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/light300.JPG")
+				div(class="item")
+					a(title="Turtle in the Virgin Islands" rel="lightbox-gal2" href="images/photography/full/turtle.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/turtle300.JPG")
+					p comment
+				div(class="item")
+					a(title="Light My Way" rel="lightbox-gal2" href="images/photography/full/light_my_way.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/light_my_way300.JPG")
+					p Light My Way
+				div(class="item")
+					a(title="Coordinates" rel="lightbox-gal2" href="images/photography/full/coordinates.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/coordinates300.JPG")
+					p Coordinates
+				div(class="item")
+					a(title="" rel="lightbox-gal2" href="images/photography/full/.JPG")
+						img(class="gallery_image" src="images/photography/thumbs/300.JPG")
+					p comment
 		div(id="fun_panel3" class="content_panel")
 			p After Effects
 			<iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe>

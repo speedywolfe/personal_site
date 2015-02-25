@@ -28,9 +28,7 @@ $element_height: 800px;
 }
 
 .nav-bar-basics {
-	display: inline;
 	list-style-type: none;
-	padding-right: 180px;
 }
 
 .add-cursor {
@@ -44,6 +42,21 @@ $element_height: 800px;
 
 .video {
 
+}
+
+.parent {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+	align-items: center;
+	-webkit-align-items: center;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.active {
+	font-weight: bold;
 }
 
 /*---------------------------------------------*/
@@ -68,6 +81,7 @@ body {
 * {
 	// font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-family: "liberation", "Arial", sans-serif; font-weight:100; font-stretch:normal;
+	margin: 0px;
 }
 
 /*---------------------------------------------*/
@@ -78,44 +92,20 @@ body {
 	width: 100%;
 	height: 200px;
 	position: fixed;
+	top: 0px;
 	background-color: $main_blue;
 	overflow: hidden;
 	color: white;
-}
-
-#nav_container {
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
+	@extend .parent;
 	font-size: 30px;
 }
 
-#nav_list_left {
-	position:relative;
-	top: 0px;
-	float: left;
-}
-
-#nav_list_center {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	position: relative;
-	top: 15px;
-	width: 350px;
-	font-size: 48px;
-}
-
-#nav_list_right {
-	position:relative;
-	right: -130px;
-	top: -105px;
-	float: right;
-}
-
-.nav_list li {
-	@extend .nav-bar-basics;
+#top_bar p:not(#my_name) {
 	@extend .add-cursor;
+}
+
+#my_name {
+	font-size: 48px;
 }
 
 #undercover {
@@ -136,6 +126,7 @@ body {
 	width: 95%;
 	background-color: white;
 	color: $main_blue;
+	margin-bottom: 30px;
 }
 
 .content_area_title {
@@ -146,6 +137,14 @@ body {
 	left: 30px;
 	top: 30px;
 	z-index: 5;
+}
+
+.content_nav_container {
+	@extend .parent;
+}
+
+.content_nav_container p:not(.content_area_title) {
+	@extend .add-cursor;
 }
 
 .content_panel {
@@ -176,7 +175,7 @@ body {
 }
 
 .panel_media {
-
+	@extend .parent;
 }
  
 /*---------------------------------------------*/
@@ -184,6 +183,7 @@ body {
 /*---------------------------------------------*/
 #about_me {
 	@extend .primary;
+	margin-top: 200px;
 }
 
 #about_me img {
@@ -225,12 +225,10 @@ $gallery_image_height: 150px;
 }
 
 #work_nav_container {
-	position: absolute;
-	top: 10px;
-	right: 15%; 
+	@extend .parent; 
 }
 
-#work_nav_bar li {
+#work_nav_bar {
 	@extend .nav-bar-basics;
 	@extend .add-cursor;
 }
@@ -257,20 +255,8 @@ $gallery_image_height: 150px;
 	@extend .primary;
 }
 
-#fun_nav_container {
-	position: absolute;
-	top: 10px;
-	right: 15%; 
-}
-
-
 #fun_content img {
 	@extend .main-image;
-}
-
-#fun_nav_bar li {
-	@extend .nav-bar-basics;
-	@extend .add-cursor;
 }
 
 #fun_panel1 {

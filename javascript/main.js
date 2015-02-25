@@ -1,7 +1,6 @@
 var current_panel_work = 1; // current panel of work slider
 var current_panel_fun = 1;  // current panel of play slider
 
-
 /*----------------------------------------------*/
 /* random other javascript funtions */
 /*----------------------------------------------*/
@@ -15,14 +14,10 @@ function barSquish(scroll) {
 	var current_Scroll = scroll;
 	if(current_Scroll < 141) { 
 		$("#top_bar").css("height", 200 - current_Scroll);
-		$("#my_name").css("top", 30 - (current_Scroll/2));
-		$("#nav_container").css("top", -(current_Scroll/2));
 	}
 	// Make sure top bar is correct height even if you scroll too fast or start at the bottom
 	else {
 		$("#top_bar").css("height", 59);
-		$("#my_name").css("top", -69);
-		$("#nav_container").css("top", -69);
 	}
 	console.log(current_Scroll);
 }
@@ -46,14 +41,19 @@ function transparency_change(direction, panel_section, panel_number) {
 	}
 }
 
-function switch_panel(section, panel_number) {
+function switch_panel(section, panel_number, name) {
 	// decide on work or play panel
 	var current_panel_number;
+
 	if(section === 'work_panel') {
 		current_panel_number = current_panel_work;
+		$("#work_nav_container p").removeClass("active");
+		$("#" + name).addClass("active");
 	}
 	if(section === 'fun_panel') {
 		current_panel_number = current_panel_fun;
+		$("#fun_nav_container p").removeClass("active");
+		$("#" + name).addClass("active");
 	}
 
 	// check if current displayed panel is same as selected

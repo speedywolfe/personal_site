@@ -13,21 +13,12 @@
   <body>
     <div id="container">
       <div id="top_bar">
-        <div id="nav_container">
-          <ul id="nav_list_left" class="nav_list">
-            <li onclick="$.scrollTo('0', 1000);">About me</li>
-            <li onclick="$.scrollTo('1000', 1000);">Resume</li>
-          </ul>
-          <div id="nav_list_center">
-            <p id="my_name">Mitchell Wolfe</p>
-          </div>
-          <ul id="nav_list_right" class="nav_list">
-            <li onclick="$.scrollTo('1830', 1000);">Work</li>
-            <li onclick="$.scrollTo('3500', 1500);">Fun</li>
-          </ul>
-        </div>
+        <p onclick="$.scrollTo('0', 1000);">About me</p>
+        <p onclick="$.scrollTo('970', 1000);">Resume</p>
+        <p id="my_name">Mitchell Wolfe</p>
+        <p onclick="$.scrollTo('1800', 1000);">Work</p>
+        <p onclick="$.scrollTo('2630', 1000);">Fun</p>
       </div>
-      <div id="undercover"></div>
       <div id="about_me">
         <p id="about_me_title" class="content_area_title">About me</p>
         <div class="content_panel">
@@ -38,34 +29,33 @@
         <p class="content_area_title">Resume</p>
       </div>
       <div id="work">
-        <p class="content_area_title">Work</p>
-        <div id="work_nav_container">
-          <ul id="work_nav_bar">
-            <li onclick="switch_panel('work_panel', 1);">Computer Graphics</li>
-            <li onclick="switch_panel('work_panel', 2);">Panel 2</li>
-            <li onclick="switch_panel('work_panel', 3);">Panel 3</li>
-          </ul>
+        <div id="work_nav_container" class="content_nav_container">
+          <p class="content_area_title">Work</p>
+          <p id="" onclick="switch_panel('work_panel', 1, '');">Computer Graphics</p>
+          <p id="graph_design" onclick="switch_panel('work_panel', 2, 'graph_design');">Graphic Design</p>
+          <p id="comp_graph" onclick="switch_panel('work_panel', 3, 'comp_graph');">Computer Graphics</p>
         </div>
         <div id="work_content">
           <div id="work_panel1" class="content_panel">
-            <p>Computer Graphics</p><iframe width="800" height="600" src="http://www.youtube.com/embed/1-EfT6M90CY?rel=0" frameborder="0" allowfullscreen> </iframe>
+            <p>Inside of Panel 1</p>
           </div>
           <div id="work_panel2" class="content_panel">
-            <p>Inside of Panel 2</p>
+            <p>Graphic Design</p>
+            <div class="item"><a title="Light My Way" rel="lightbox-gal2" href="images/graphic_design/full/ubuntu.png"><img src="images/photography/thumbs/ubuntu300.png" class="gallery_image"></a>
+              <p>typography poster</p>
+            </div>
           </div>
           <div id="work_panel3" class="content_panel">
-            <p>Inside of Panel 3</p>
+            <p>Computer Graphics</p><iframe width="800" height="600" src="http://www.youtube.com/embed/1-EfT6M90CY?rel=0" frameborder="0" allowfullscreen> </iframe>
           </div>
         </div>
       </div>
       <div id="fun">
-        <p class="content_area_title">Fun</p>
-        <div id="fun_nav_container">
-          <ul id="fun_nav_bar">
-            <li id="gen_art" onclick="switch_panel('fun_panel', 1);">Generative Art</li>
-            <li id="photography" onclick="switch_panel('fun_panel', 2);">Photography</li>
-            <li id="effects" onclick="switch_panel('fun_panel', 3);">After Effects</li>
-          </ul>
+        <div id="fun_nav_container" class="content_nav_container">
+          <p class="content_area_title">Fun</p>
+          <p id="gen_art" onclick="switch_panel('fun_panel', 1, 'gen_art');">Generative Art</p>
+          <p id="photography" onclick="switch_panel('fun_panel', 2, 'photography');">Photography</p>
+          <p id="effects" onclick="switch_panel('fun_panel', 3 ,'effects');">After Effects</p>
         </div>
         <div id="fun_content">
           <div id="fun_panel1" class="content_panel">
@@ -89,7 +79,23 @@
           </div>
           <div id="fun_panel2" class="content_panel">
             <p>Photography</p>
-            <div id="photography" class="panel_media"><a title="Golden Gate Bridge" rel="lightbox-gal2" href="images/photography/bridge.JPG"><img src="images/photography/bridge.JPG" class="gallery_image"></a><a title="Niagra Falls" rel="lightbox-gal2" href="images/photography/falls.JPG"><img src="images/photography/falls.JPG" class="gallery_image"></a><a title="Light through the Rocks" rel="lightbox-gal2" href="images/photography/light.JPG"><img src="images/photography/light.JPG" class="gallery_image"></a><a title="Turtle in the Virgin Islands" rel="lightbox-gal2" href="images/photography/turtle.JPG"><img src="images/photography/turtle.JPG" class="gallery_image"></a></div>
+            <div id="photography" class="panel_media">
+              <div class="item"><a title="Golden Gate Bridge" rel="lightbox-gal2" href="images/photography/full/bridge.JPG"><img src="images/photography/thumbs/bridge300.JPG" class="gallery_image"></a></div>
+              <div class="item"><a title="Niagra Falls" rel="lightbox-gal2" href="images/photography/full/falls.JPG"><img src="images/photography/thumbs/falls300.JPG" class="gallery_image"></a></div>
+              <div class="item"><a title="Light through the Rocks" rel="lightbox-gal2" href="images/photography/full/light.JPG"><img src="images/photography/thumbs/light300.JPG" class="gallery_image"></a></div>
+              <div class="item"><a title="Turtle in the Virgin Islands" rel="lightbox-gal2" href="images/photography/full/turtle.JPG"><img src="images/photography/thumbs/turtle300.JPG" class="gallery_image"></a>
+                <p>comment</p>
+              </div>
+              <div class="item"><a title="Light My Way" rel="lightbox-gal2" href="images/photography/full/light_my_way.JPG"><img src="images/photography/thumbs/light_my_way300.JPG" class="gallery_image"></a>
+                <p>Light My Way</p>
+              </div>
+              <div class="item"><a title="Coordinates" rel="lightbox-gal2" href="images/photography/full/coordinates.JPG"><img src="images/photography/thumbs/coordinates300.JPG" class="gallery_image"></a>
+                <p>Coordinates</p>
+              </div>
+              <div class="item"><a title="" rel="lightbox-gal2" href="images/photography/full/.JPG"><img src="images/photography/thumbs/300.JPG" class="gallery_image"></a>
+                <p>comment</p>
+              </div>
+            </div>
           </div>
           <div id="fun_panel3" class="content_panel">
             <p>After Effects</p><iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe>
