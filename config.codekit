@@ -405,6 +405,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/float_head.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.96864e+06,
+		"inputAbbreviatedPath": "\/images\/float_head.jpg",
+		"outputAbbreviatedPath": "\/images\/float_head.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/graphic_design\/full\/ubuntu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -423,6 +434,17 @@
 		"initialSize": 32423,
 		"inputAbbreviatedPath": "\/images\/graphic_design\/thumbs\/ubuntu300.png",
 		"outputAbbreviatedPath": "\/images\/graphic_design\/thumbs\/ubuntu300.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/head.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.46311e+06,
+		"inputAbbreviatedPath": "\/images\/head.jpg",
+		"outputAbbreviatedPath": "\/images\/head.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

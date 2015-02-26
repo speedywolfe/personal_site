@@ -27,10 +27,6 @@ $element_height: 800px;
 	top: 0; bottom: 0;
 }
 
-.nav-bar-basics {
-	list-style-type: none;
-}
-
 .add-cursor {
 	cursor: pointer;
 }
@@ -38,10 +34,6 @@ $element_height: 800px;
 .main-image {
 	padding: 5px;
 	height: 150px;
-}
-
-.video {
-
 }
 
 .parent {
@@ -62,6 +54,11 @@ $element_height: 800px;
 /*---------------------------------------------*/
 /* Full Document Styles */
 /*---------------------------------------------*/
+* {
+	font-family: "liberation", "Arial", sans-serif; font-weight:100; font-stretch:normal;
+	margin: 0px;
+}
+
 body {
 	margin:0;
 	padding:0;
@@ -78,16 +75,25 @@ body {
 	src: url(../resources/liberation.ttf);
 }
 
-* {
-	// font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-family: "liberation", "Arial", sans-serif; font-weight:100; font-stretch:normal;
-	margin: 0px;
+/*---------------------------------------------*/
+/* Gallery */
+/*---------------------------------------------*/
+$gallery_image_height: 150px;
+
+.panel_media a {
+	height: $gallery_image_height;
+	padding: 10px;
+	float: left;
+}
+.gallery_image {
+	height: $gallery_image_height;
 }
 
 /*---------------------------------------------*/
 /* Top Navigation Bar */
 /*---------------------------------------------*/
 #top_bar {
+	@extend .parent;
 	z-index: 101;
 	width: 100%;
 	height: 200px;
@@ -96,7 +102,6 @@ body {
 	background-color: $main_blue;
 	overflow: hidden;
 	color: white;
-	@extend .parent;
 	font-size: 30px;
 }
 
@@ -170,10 +175,6 @@ body {
 	font-size: 14px;
 }
 
-.item img {
-	margin: auto;
-}
-
 .panel_media {
 	@extend .parent;
 }
@@ -187,11 +188,10 @@ body {
 }
 
 #about_me img {
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 0px; 
-	height: 100%;
-	width: 100%;
+	float: right;
+	height: 600px;
 }
 
 /*---------------------------------------------*/
@@ -199,21 +199,6 @@ body {
 /*---------------------------------------------*/
 #resume {
 	@extend .primary;
-	// background-color: white;
-}
-
-/*---------------------------------------------*/
-/* Gallery */
-/*---------------------------------------------*/
-$gallery_image_height: 150px;
-
-.panel_media a {
-	height: $gallery_image_height;
-	padding: 10px;
-	float: left;
-}
-.gallery_image {
-	height: $gallery_image_height;
 }
 
 /*---------------------------------------------*/
@@ -221,16 +206,6 @@ $gallery_image_height: 150px;
 /*---------------------------------------------*/
 #work {
 	@extend .primary;
-	// background-color: $new_orange;
-}
-
-#work_nav_container {
-	@extend .parent; 
-}
-
-#work_nav_bar {
-	@extend .nav-bar-basics;
-	@extend .add-cursor;
 }
 
 #work_panel1 {

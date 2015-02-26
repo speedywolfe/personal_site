@@ -17,17 +17,14 @@
   top: 0;
   bottom: 0; }
 
-.nav-bar-basics, #work_nav_bar {
-  list-style-type: none; }
-
-.add-cursor, #top_bar p:not(#my_name), .content_nav_container p:not(.content_area_title), #work_nav_bar {
+.add-cursor, #top_bar p:not(#my_name), .content_nav_container p:not(.content_area_title) {
   cursor: pointer; }
 
 .main-image, #fun_content img {
   padding: 5px;
   height: 150px; }
 
-.parent, #top_bar, .content_nav_container, .panel_media, #work_nav_container {
+.parent, #top_bar, .content_nav_container, .panel_media {
   display: flex;
   display: -webkit-flex;
   justify-content: space-around;
@@ -43,6 +40,12 @@
 /*---------------------------------------------*/
 /* Full Document Styles */
 /*---------------------------------------------*/
+* {
+  font-family: "liberation", "Arial", sans-serif;
+  font-weight: 100;
+  font-stretch: normal;
+  margin: 0px; }
+
 body {
   margin: 0;
   padding: 0;
@@ -54,11 +57,16 @@ body {
 @font-face {
   font-family: liberation;
   src: url(../resources/liberation.ttf); }
-* {
-  font-family: "liberation", "Arial", sans-serif;
-  font-weight: 100;
-  font-stretch: normal;
-  margin: 0px; }
+/*---------------------------------------------*/
+/* Gallery */
+/*---------------------------------------------*/
+.panel_media a {
+  height: 150px;
+  padding: 10px;
+  float: left; }
+
+.gallery_image {
+  height: 150px; }
 
 /*---------------------------------------------*/
 /* Top Navigation Bar */
@@ -123,9 +131,6 @@ body {
 .item p {
   font-size: 14px; }
 
-.item img {
-  margin: auto; }
-
 /*---------------------------------------------*/
 /* About Me */
 /*---------------------------------------------*/
@@ -133,26 +138,14 @@ body {
   margin-top: 200px; }
 
 #about_me img {
-  position: absolute;
+  position: relative;
   top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%; }
+  float: right;
+  height: 600px; }
 
 /*---------------------------------------------*/
 /* Resume */
 /*---------------------------------------------*/
-/*---------------------------------------------*/
-/* Gallery */
-/*---------------------------------------------*/
-.panel_media a {
-  height: 150px;
-  padding: 10px;
-  float: left; }
-
-.gallery_image {
-  height: 150px; }
-
 /*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
