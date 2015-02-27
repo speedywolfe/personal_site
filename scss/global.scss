@@ -75,6 +75,10 @@ body {
 	src: url(../resources/liberation.ttf);
 }
 
+figure {
+	text-align: center;
+}
+
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
@@ -199,6 +203,26 @@ $gallery_image_height: 150px;
 /*---------------------------------------------*/
 #resume {
 	@extend .primary;
+}
+
+#resume_panel1 {
+	opacity: 1.0;
+	z-index: 5;
+}
+
+#resume_panel2 {
+	opacity: 0;
+	z-index: -1;
+}
+
+#resume_panel3 {
+	opacity: 0;
+	z-index: -1;
+}
+
+#resume_panel4 {
+	opacity: 0;
+	z-index: -1;
 }
 
 /*---------------------------------------------*/

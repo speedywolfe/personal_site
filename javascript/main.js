@@ -1,5 +1,6 @@
 var current_panel_work = 1; // current panel of work slider
 var current_panel_fun = 1;  // current panel of play slider
+var current_panel_resume = 1;  // current panel of play slider
 
 /*----------------------------------------------*/
 /* random other javascript funtions */
@@ -45,6 +46,8 @@ function switch_panel(section, panel_number, name) {
 	// decide on work or play panel
 	var current_panel_number;
 
+	console.log(section);
+
 	if(section === 'work_panel') {
 		current_panel_number = current_panel_work;
 		$("#work_nav_container p").removeClass("active");
@@ -53,6 +56,12 @@ function switch_panel(section, panel_number, name) {
 	if(section === 'fun_panel') {
 		current_panel_number = current_panel_fun;
 		$("#fun_nav_container p").removeClass("active");
+		$("#" + name).addClass("active");
+	}
+
+	if(section === 'resume_panel') {
+		current_panel_number = current_panel_resume;
+		$("#resume_nav_container p").removeClass("active");
 		$("#" + name).addClass("active");
 	}
 
@@ -75,6 +84,9 @@ function switch_panel(section, panel_number, name) {
 		}
 		if(section === 'fun_panel') {
 			current_panel_fun = panel_number;
+		}
+		if(section === 'resume_panel') {
+			current_panel_resume = panel_number;
 		}
 	}
 }

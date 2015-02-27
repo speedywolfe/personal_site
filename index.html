@@ -26,7 +26,55 @@
         </div>
       </div>
       <div id="resume">
-        <p class="content_area_title">Resume</p>
+        <div id="resume_nav_container" class="content_nav_container">
+          <p class="content_area_title">Resume</p>
+          <p id="res_sel" onclick="switch_panel('resume_panel', 1, 'res_sel');" class="active">Experience and Skills</p>
+          <p id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');">Radio 1190</p>
+          <p id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');">Space Research Company</p>
+          <p id="think_sel" onclick="switch_panel('resume_panel', 4, 'think_sel');">MyThinkSpace</p>
+        </div>
+        <div id="resume_content">
+          <div id="resume_panel1" class="content_panel">
+            <p class="panel_description">panel 1</p>
+            <div id="resume_main" class="panel_media">
+              <div id="experience">
+                <h1 id="experience_header" class="resume_main_header"></h1>
+                <h2 id="time_warner" class="resume_small_header"></h2>
+                <h2 class="resume_date">
+                  <p class="resume_section_content"></p>
+                </h2>
+              </div>
+              <div id="education">
+                <h1 id="education_header" class="resume_main_header"></h1>
+                <h2 id="cu_boulder" class="resume_small_header"></h2>
+                <h2 class="resume_date">
+                  <p class="resume_section_content"></p>
+                </h2>
+              </div>
+              <div id="skills">
+                <h1 id="skills_header" class="resume_main_header"></h1>
+                <h2 id="programming" class="resume_small_header">
+                  <p class="resume_section_content"></p>
+                </h2>
+                <h2 id="design" class="resume_small_header">
+                  <p class="resume_section_content"></p>
+                </h2>
+                <h2 id="writing" class="resume_small_header">
+                  <p class="resume_section_content"></p>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div id="resume_panel2" class="content_panel">
+            <p class="panel_description">panel 2 </p>
+          </div>
+          <div id="resume_panel3" class="content_panel">
+            <p class="panel_description">panel 3</p>
+          </div>
+          <div id="resume_panel4" class="content_panel">
+            <p class="panel_description">panel 4</p>
+          </div>
+        </div>
       </div>
       <div id="work">
         <div id="work_nav_container" class="content_nav_container">
@@ -41,9 +89,11 @@
           </div>
           <div id="work_panel2" class="content_panel">
             <div id="graph_design" class="panel_media">
-              <div class="item"><a title="Light My Way" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png"><img src="images/graphic_design/thumbs/ubuntu300.png" class="gallery_image"></a>
+              <figure class="item"><a title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png"><img src="images/graphic_design/thumbs/ubuntu300.png" class="gallery_image"></a>
                 <p>typography poster</p>
-              </div>
+              </figure>
+              <figure class="item"></figure><a title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg"><img src="images/graphic_design/thumbs/my_think_space.svgco" class="gallery_image"></a>
+              <p>typography poster</p>
             </div>
           </div>
           <div id="work_panel3" class="content_panel">
@@ -64,20 +114,42 @@
           <div id="fun_panel1" class="content_panel">
             <p class="panel_description">Here is a selection of images created using generative art techniques.</p>
             <div id="dig_art" class="panel_media">
-              <div class="item"><a title="marble" rel="lightbox-gal2" href="images/digital_art/full/marble.png"><img src="images/digital_art/thumbs/marble300.png" class="gallery_image"></a>
-                <p>Example Description </p>
-              </div>
-              <div class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.png"><img src="images/digital_art/thumbs/spines300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="of_squares" rel="lightbox-gal2" href="images/digital_art/full/of_squares.png"><img src="images/digital_art/thumbs/of_squares300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="travels" rel="lightbox-gal2" href="images/digital_art/full/travels.png"><img src="images/digital_art/thumbs/travels300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="calligraphy" rel="lightbox-gal2" href="images/digital_art/full/calligraphy.png"><img src="images/digital_art/thumbs/calligraphy300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="twins" rel="lightbox-gal2" href="images/digital_art/full/twins.png"><img src="images/digital_art/thumbs/twins300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="detrimental" rel="lightbox-gal2" href="images/digital_art/full/detrimental.png"><img src="images/digital_art/thumbs/detrimental300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="the_grid" rel="lightbox-gal2" href="images/digital_art/full/the_grid.png"><img src="images/digital_art/thumbs/the_grid300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="star_shower" rel="lightbox-gal2" href="images/digital_art/full/star_shower.png"><img src="images/digital_art/thumbs/star_shower300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="sharp_ooze" rel="lightbox-gal2" href="images/digital_art/full/sharp_ooze.png"><img src="images/digital_art/thumbs/sharp_ooze300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="motherboard" rel="lightbox-gal2" href="images/digital_art/full/motherboard.png"><img src="images/digital_art/thumbs/motherboard300.png" class="gallery_image"></a></div>
-              <div class="item"><a title="cylinder_night" rel="lightbox-gal2" href="images/digital_art/full/cylinder_night.png"><img src="images/digital_art/thumbs/cylinder_night300.png" class="gallery_image"></a></div>
+              <figure class="item"><a title="marble" rel="lightbox-gal2" href="images/digital_art/full/marble.png"><img src="images/digital_art/thumbs/marble300.png" class="gallery_image"></a>
+                <figcaption>Example Description </figcaption>
+              </figure>
+              <figure class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.png"><img src="images/digital_art/thumbs/spines300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="of_squares" rel="lightbox-gal2" href="images/digital_art/full/of_squares.png"><img src="images/digital_art/thumbs/of_squares300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="travels" rel="lightbox-gal2" href="images/digital_art/full/travels.png"><img src="images/digital_art/thumbs/travels300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="calligraphy" rel="lightbox-gal2" href="images/digital_art/full/calligraphy.png"><img src="images/digital_art/thumbs/calligraphy300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="twins" rel="lightbox-gal2" href="images/digital_art/full/twins.png"><img src="images/digital_art/thumbs/twins300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="detrimental" rel="lightbox-gal2" href="images/digital_art/full/detrimental.png"><img src="images/digital_art/thumbs/detrimental300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="the_grid" rel="lightbox-gal2" href="images/digital_art/full/the_grid.png"><img src="images/digital_art/thumbs/the_grid300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="star_shower" rel="lightbox-gal2" href="images/digital_art/full/star_shower.png"><img src="images/digital_art/thumbs/star_shower300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="sharp_ooze" rel="lightbox-gal2" href="images/digital_art/full/sharp_ooze.png"><img src="images/digital_art/thumbs/sharp_ooze300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="motherboard" rel="lightbox-gal2" href="images/digital_art/full/motherboard.png"><img src="images/digital_art/thumbs/motherboard300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
+              <figure class="item"><a title="cylinder_night" rel="lightbox-gal2" href="images/digital_art/full/cylinder_night.png"><img src="images/digital_art/thumbs/cylinder_night300.png" class="gallery_image"></a>
+                <figcaption>derp</figcaption>
+              </figure>
             </div>
           </div>
           <div id="fun_panel2" class="content_panel">

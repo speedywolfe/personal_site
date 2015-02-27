@@ -1,2 +1,38 @@
 div(id="resume")
-	p(class="content_area_title") Resume
+	div(id="resume_nav_container" class="content_nav_container")
+		p(class="content_area_title") Resume
+		p(id="res_sel" class="active" onclick="switch_panel('resume_panel', 1, 'res_sel');") Experience and Skills
+		p(id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');") Radio 1190
+		p(id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');") Space Research Company
+		p(id="think_sel" onclick="switch_panel('resume_panel', 4, 'think_sel');") MyThinkSpace
+
+	div(id="resume_content")
+		div(id="resume_panel1" class="content_panel")
+			p(class="panel_description") panel 1
+			div(id="resume_main" class="panel_media")
+				div(id="experience")
+					h1(id="experience_header" class="resume_main_header")
+					h2(id="time_warner" class="resume_small_header")
+					h2(class="resume_date")
+						p(class="resume_section_content")
+				div(id="education")
+					h1(id="education_header" class="resume_main_header")
+					h2(id="cu_boulder" class="resume_small_header")
+					h2(class="resume_date")
+						p(class="resume_section_content")
+				div(id="skills")
+					h1(id="skills_header" class="resume_main_header")
+					h2(id="programming" class="resume_small_header")
+						p(class="resume_section_content")
+					h2(id="design" class="resume_small_header")
+						p(class="resume_section_content")
+					h2(id="writing" class="resume_small_header")
+						p(class="resume_section_content")
+		div(id="resume_panel2" class="content_panel")
+			p(class="panel_description") panel 2 
+		div(id="resume_panel3" class="content_panel")
+			p(class="panel_description") panel 3
+		div(id="resume_panel4" class="content_panel")
+			p(class="panel_description") panel 4
+
+				

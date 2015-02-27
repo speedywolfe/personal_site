@@ -1,5 +1,4 @@
 div(id="work")
-	
 	div(id="work_nav_container" class="content_nav_container")
 		p(class="content_area_title") Work
 		p(id="panel1_sel" class="active" onclick="switch_panel('work_panel', 1, 'panel1_sel');") Panel 1
@@ -10,10 +9,14 @@ div(id="work")
 			p Inside of Panel 1
 		div(id="work_panel2" class="content_panel")
 			div(id="graph_design" class="panel_media")
-				div(class="item")
-						a(title="Light My Way" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png")
-							img(class="gallery_image" src="images/graphic_design/thumbs/ubuntu300.png")
-						p typography poster
+				figure(class="item")
+					a(title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png")
+						img(class="gallery_image" src="images/graphic_design/thumbs/ubuntu300.png")
+					p typography poster
+				figure(class="item")
+				a(title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg")
+					img(class="gallery_image" src="images/graphic_design/thumbs/my_think_space.svgco")
+				p typography poster
 		div(id="work_panel3" class="content_panel")
 			div(id="comp_graph" class="panel_media")
 				div(class="item")
