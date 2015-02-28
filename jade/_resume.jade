@@ -8,31 +8,54 @@ div(id="resume")
 
 	div(id="resume_content")
 		div(id="resume_panel1" class="content_panel")
-			p(class="panel_description") panel 1
 			div(id="resume_main" class="panel_media")
 				div(id="experience")
-					h1(id="experience_header" class="resume_main_header")
-					h2(id="time_warner" class="resume_small_header")
-					h2(class="resume_date")
-						p(class="resume_section_content")
+					h1(id="experience_header" class="resume_main_header") Work
+					div(class="resume_container")
+						h3(id="time_warner" class="resume_small_header") Time Warner Cable
+						h3(class="resume_date") 2013 & 2014 Summers
+					p(class="resume_section_content") 
+						include ../markdown/time_warner.md
 				div(id="education")
-					h1(id="education_header" class="resume_main_header")
-					h2(id="cu_boulder" class="resume_small_header")
-					h2(class="resume_date")
-						p(class="resume_section_content")
+					h1(id="education_header" class="resume_main_header") Education
+					div(class="resume_container")
+						h3(id="cu_boulder" class="resume_small_header") University of Colorado Boulder
+						h3(class="resume_date") Fall 2011 - Present
+					ul Pursuing a Bachelors of Science Degree in Computer Science
+						li Minor in Technology, Arts, and Media 
+						li Minor in Creative Writing
+					P Senior with GPA of 3.7 and Multiple Deans List Semesters
+
 				div(id="skills")
-					h1(id="skills_header" class="resume_main_header")
-					h2(id="programming" class="resume_small_header")
-						p(class="resume_section_content")
-					h2(id="design" class="resume_small_header")
-						p(class="resume_section_content")
-					h2(id="writing" class="resume_small_header")
-						p(class="resume_section_content")
+					h1(id="skills_header" class="resume_main_header") Skills
+					div(class="resume_container")
+						div(class="resume_small_container")
+							h3(id="programming" class="resume_small_header") Programming
+							ul
+								li Extensive experience in building web applications using Javascript and moderate experience building applications and scripts using C/C++ and Python.
+								li Exposure to AngularJS and various JS libraries
+								li Proficiency with GIT, Linux Systems and Terminal Commands
+								li Understanding of Object Oriented Programming, Data Structures, A.I. and 3D Graphics
+						div(class="resume_small_container")
+
+							h3(id="design" class="resume_small_header") Design
+							ul
+								li Experience building company identity including logos, website design, business cards, corporate identity documents, and promotional videos.
+								li Multiple web pages/sites and applications built using HTML5, Jade, CSS, and Javascript
+								li Fluency in Adobe Products including Photoshop, Illustrator and InDesign
+								li Constructed wireframes for web designs and applications then worked side by side with clients to tune the features and feel to their needs.
+						div(class="resume_small_container")
+							h3(id="writing" class="resume_small_header") Writing
+							ul
+								li Extensive experience writing and editing creative writing pieces including short stories, poems, and novel excerpts								li
+								li Comfortable with technical writing through use in documenting projects and in classes
+								li Participated in many workshops editing and critiquing other peoples’ work
+								li Published creative writing in online journals
 		div(id="resume_panel2" class="content_panel")
-			p(class="panel_description") panel 2 
+			p(class="panel_description") Radio 1190 
 		div(id="resume_panel3" class="content_panel")
-			p(class="panel_description") panel 3
+			p(class="panel_description") Space Research Company
 		div(id="resume_panel4" class="content_panel")
-			p(class="panel_description") panel 4
+			p(class="panel_description") MyThinkSpace
 
 				

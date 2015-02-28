@@ -205,6 +205,37 @@ $gallery_image_height: 150px;
 	@extend .primary;
 }
 
+.resume_container {
+	@extend .parent;
+}
+
+.resume_small_container {
+	width: 30%;
+}
+
+.resume_main_header {
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+#experience {
+	width: 49%;
+}
+
+#education {
+	width: 49%;
+}
+
+#education ul {
+	font-size: 20px;
+}
+
+#education ul li {
+	list-style-type: none;
+	margin-left: 30px;
+	font-size: 20px;
+}
+
 #resume_panel1 {
 	opacity: 1.0;
 	z-index: 5;

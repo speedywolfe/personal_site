@@ -5,9 +5,9 @@ var current_panel_resume = 1;  // current panel of play slider
 /*----------------------------------------------*/
 /* random other javascript funtions */
 /*----------------------------------------------*/
-$(document).ready(function(){
-	$(this).scrollTop(0);
-});
+// $(document).ready(function(){
+// 	$(this).scrollTop(0);
+// });
 /*----------------------------------------------*/
 /* Top Bar Squishing and growing based on Scroll*/
 /*----------------------------------------------*/
