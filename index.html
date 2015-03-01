@@ -20,9 +20,10 @@
         <p onclick="$.scrollTo('2630', 1000);">Fun</p>
       </div>
       <div id="about_me">
-        <p id="about_me_title" class="content_area_title">About me</p><img src="images/float_head.jpg">
+        <p id="about_me_title" class="content_area_title">About me</p><img id="portrait" src="images/portrait.png"><img id="skill_graph" src="images/skills_graph.svg">
         <div class="content_panel">
-          <p id="about_me_text">Hello my name is Mitchell Wolfe and I create things</p>
+          <p id="about_me_text"> Hello my name is Mitchell Wolfe and I create things. I love designing websites, interefaces, brands, logos, and graphics. However, I also love programming, anywhere from games and computer graphics to unix scripts and generative art, though my passion is web programming. My motivation for all of this is to tell stories through technology.
+          </p>
         </div>
       </div>
       <div id="resume">
@@ -144,15 +145,12 @@ The last piece of design was a promotional video designed to showcase their main
       <div id="work">
         <div id="work_nav_container" class="content_nav_container">
           <p class="content_area_title">Work</p>
-          <p id="panel1_sel" onclick="switch_panel('work_panel', 1, 'panel1_sel');" class="active">Panel 1</p>
-          <p id="graph_design_sel" onclick="switch_panel('work_panel', 2, 'graph_design_sel');">Graphic Design</p>
+          <p id="graph_design_sel" onclick="switch_panel('work_panel', 1, 'graph_design_sel');" class="active">Graphic Design</p>
+          <p id="after_effects_sel" onclick="switch_panel('work_panel', 2, 'after_effects_sel');">After Effects</p>
           <p id="comp_graph_sel" onclick="switch_panel('work_panel', 3, 'comp_graph_sel');">Computer Graphics</p>
         </div>
         <div id="work_content">
           <div id="work_panel1" class="content_panel">
-            <p>Inside of Panel 1</p>
-          </div>
-          <div id="work_panel2" class="content_panel">
             <div id="graph_design" class="panel_media">
               <figure class="item"><a title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png"><img src="images/graphic_design/thumbs/ubuntu300.png" class="gallery_image"></a>
                 <figcatpion>Type Spec Poster</figcatpion>
@@ -160,7 +158,14 @@ The last piece of design was a promotional video designed to showcase their main
               <figure class="item"><a title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg"><img src="images/graphic_design/full/my_think_space.svg" class="gallery_image"></a>
                 <figcaption>MyThinkSpace Logo	</figcaption>
               </figure>
-              <p>typography poster</p>
+              <figure class="item"><a title="The Bully" rel="lightbox-gal1" href="images/graphic_design/full/front_cover.png"><img src="images/graphic_design/thumbs/front_cover300.png" class="gallery_image"></a>
+                <figcaption>Cover for Digital Comic. <a src="">Full Comic</a></figcaption>
+              </figure>
+            </div>
+          </div>
+          <div id="work_panel2" class="content_panel">
+            <div id="after_effects" class="panel_media">
+              <div class="item"><iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe></div>
             </div>
           </div>
           <div id="work_panel3" class="content_panel">
@@ -238,7 +243,7 @@ The last piece of design was a promotional video designed to showcase their main
               </div>
             </div>
           </div>
-          <div id="fun_panel3" class="content_panel"><iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe></div>
+          <div id="fun_panel3" class="content_panel"></div>
         </div>
       </div>
       <div id="contact">

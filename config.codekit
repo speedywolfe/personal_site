@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bw_portrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117125,
+		"inputAbbreviatedPath": "\/images\/bw_portrait.jpg",
+		"outputAbbreviatedPath": "\/images\/bw_portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/digital_art\/full\/calligraphy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -416,6 +427,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/graphic_design\/full\/front_cover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60719,
+		"inputAbbreviatedPath": "\/images\/graphic_design\/full\/front_cover.png",
+		"outputAbbreviatedPath": "\/images\/graphic_design\/full\/front_cover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/graphic_design\/full\/ubuntu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -423,6 +445,17 @@
 		"initialSize": 348753,
 		"inputAbbreviatedPath": "\/images\/graphic_design\/full\/ubuntu.png",
 		"outputAbbreviatedPath": "\/images\/graphic_design\/full\/ubuntu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/graphic_design\/thumbs\/front_cover300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25595,
+		"inputAbbreviatedPath": "\/images\/graphic_design\/thumbs\/front_cover300.png",
+		"outputAbbreviatedPath": "\/images\/graphic_design\/thumbs\/front_cover300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -559,24 +592,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/photography\/thumbs\/coordinates300.jpg": {
+	"\/images\/photography\/thumbs\/coordinates300.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 120496,
-		"inputAbbreviatedPath": "\/images\/photography\/thumbs\/coordinates300.jpg",
-		"outputAbbreviatedPath": "\/images\/photography\/thumbs\/coordinates300.jpg",
+		"inputAbbreviatedPath": "\/images\/photography\/thumbs\/coordinates300.JPG",
+		"outputAbbreviatedPath": "\/images\/photography\/thumbs\/coordinates300.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/photography\/thumbs\/light_my_way300.jpg": {
+	"\/images\/photography\/thumbs\/light_my_way300.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 180150,
-		"inputAbbreviatedPath": "\/images\/photography\/thumbs\/light_my_way300.jpg",
-		"outputAbbreviatedPath": "\/images\/photography\/thumbs\/light_my_way300.jpg",
+		"inputAbbreviatedPath": "\/images\/photography\/thumbs\/light_my_way300.JPG",
+		"outputAbbreviatedPath": "\/images\/photography\/thumbs\/light_my_way300.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -588,6 +621,17 @@
 		"initialSize": 675822,
 		"inputAbbreviatedPath": "\/images\/portrait.JPG",
 		"outputAbbreviatedPath": "\/images\/portrait.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 567653,
+		"inputAbbreviatedPath": "\/images\/portrait.png",
+		"outputAbbreviatedPath": "\/images\/portrait.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1,13 +1,11 @@
 div(id="work")
 	div(id="work_nav_container" class="content_nav_container")
 		p(class="content_area_title") Work
-		p(id="panel1_sel" class="active" onclick="switch_panel('work_panel', 1, 'panel1_sel');") Panel 1
-		p(id="graph_design_sel" onclick="switch_panel('work_panel', 2, 'graph_design_sel');") Graphic Design
+		p(id="graph_design_sel" class="active" onclick="switch_panel('work_panel', 1, 'graph_design_sel');") Graphic Design
+		p(id="after_effects_sel" onclick="switch_panel('work_panel', 2, 'after_effects_sel');") After Effects
 		p(id="comp_graph_sel" onclick="switch_panel('work_panel', 3, 'comp_graph_sel');") Computer Graphics
 	div(id="work_content")
 		div(id="work_panel1" class="content_panel")
-			p Inside of Panel 1
-		div(id="work_panel2" class="content_panel")
 			div(id="graph_design" class="panel_media")
 				figure(class="item")
 					a(title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png")
@@ -17,7 +15,15 @@ div(id="work")
 					a(title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg")
 						img(class="gallery_image" src="images/graphic_design/full/my_think_space.svg")
 					figcaption MyThinkSpace Logo	
-				p typography poster
+				figure(class="item")
+					a(title="The Bully" rel="lightbox-gal1" href="images/graphic_design/full/front_cover.png")
+						img(class="gallery_image" src="images/graphic_design/thumbs/front_cover300.png")
+					figcaption Cover for Digital Comic. 
+						a(src="") Full Comic
+		div(id="work_panel2" class="content_panel")
+			div(id="after_effects" class="panel_media")
+				div(class="item")
+					<iframe width="800" height="600" src="http://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe>
 		div(id="work_panel3" class="content_panel")
 			div(id="comp_graph" class="panel_media")
 				div(class="item")

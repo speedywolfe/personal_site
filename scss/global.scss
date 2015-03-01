@@ -195,10 +195,17 @@ $gallery_image_height: 150px;
 	margin-top: 200px;
 }
 
-#about_me img {
-	position: relative;
-	top: 0px;
-	float: right;
+#portrait {
+	position: absolute;
+	bottom: 0px;
+	float: left;
+	height: 600px;
+}
+
+#skill_graph {
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
 	height: 600px;
 }
 
