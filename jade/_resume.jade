@@ -9,14 +9,14 @@ div(id="resume")
 	div(id="resume_content")
 		div(id="resume_panel1" class="content_panel")
 			div(id="resume_main" class="panel_media")
-				div(id="experience")
+				div(id="experience" class="resume_big_container")
 					h1(id="experience_header" class="resume_main_header") Work
 					div(class="resume_container")
 						h3(id="time_warner" class="resume_small_header") Time Warner Cable
 						h3(class="resume_date") 2013 & 2014 Summers
 					p(class="resume_section_content") 
 						include ../markdown/time_warner.md
-				div(id="education")
+				div(id="education" class="resume_big_container")
 					h1(id="education_header" class="resume_main_header") Education
 					div(class="resume_container")
 						h3(id="cu_boulder" class="resume_small_header") University of Colorado Boulder
@@ -52,10 +52,30 @@ div(id="resume")
 								li Participated in many workshops editing and critiquing other peoples’ work
 								li Published creative writing in online journals
 		div(id="resume_panel2" class="content_panel")
-			p(class="panel_description") Radio 1190 
+			p(id="radio_name" class="panel_description") Radio 1190
+			div(class="resume_container")
+				div(id="radio_words")
+					p(id="radio_section_markdown" class="resume_words") 
+						include ../markdown/radio1190.md
+				div(id="radio_mockup")
+					figure
+						img(src="images/resume/live_concept8.png")
+						figcaption Here is an example of a mockup for the intereface
 		div(id="resume_panel3" class="content_panel")
 			p(class="panel_description") Space Research Company
+			div(class="resume_container")
+				div(id="space_words" )
+					p(id="space_section_markdown" class="resume_words")
+						include ../markdown/space_research_company.md
 		div(id="resume_panel4" class="content_panel")
 			p(class="panel_description") MyThinkSpace
+			div(class="resume_container")
+				div(id="thinkspace_words")
+					p(id="thinkspace_section_markdown" class="resume_words")
+						include ../markdown/mythinkspace.md
+				div(class="resume_small_container")
+					figure
+						img(src="images/graphic_design/full/my_think_space.svg")
+						figcatption Logo I designed for the Project
 
 				

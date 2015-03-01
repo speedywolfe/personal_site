@@ -36,20 +36,20 @@
         <div id="resume_content">
           <div id="resume_panel1" class="content_panel">
             <div id="resume_main" class="panel_media">
-              <div id="experience">
+              <div id="experience" class="resume_big_container">
                 <h1 id="experience_header" class="resume_main_header">Work</h1>
                 <div class="resume_container">
                   <h3 id="time_warner" class="resume_small_header">Time Warner Cable</h3>
                   <h3 class="resume_date">2013 & 2014 Summers</h3>
                 </div>
-                <p class="resume_section_content">Software Engineering Intern working with HTML5, CSS3/SASS and Javascript Built a media streaming application using web technologies on a 
-team of interns in order to test prototype hardware.
+                <p class="resume_section_content"> Software Engineering Intern working with HTML5, CSS3/SASS and Javascript Built a media streaming application using web technologies on a 
+team of interns in order to test prototype hardware. <br>
 
 (2013) Worked on a team of engineers to design the interface, implement features and 
 fix bugs for a future web based settop box user interface using primarily Javascript with various libraries, CSS, and GIT. (2014)
                 </p>
               </div>
-              <div id="education">
+              <div id="education" class="resume_big_container">
                 <h1 id="education_header" class="resume_main_header">Education</h1>
                 <div class="resume_container">
                   <h3 id="cu_boulder" class="resume_small_header">University of Colorado Boulder</h3>
@@ -96,13 +96,48 @@ fix bugs for a future web based settop box user interface using primarily Javasc
             </div>
           </div>
           <div id="resume_panel2" class="content_panel">
-            <p class="panel_description">Radio 1190 </p>
+            <p id="radio_name" class="panel_description">Radio 1190</p>
+            <div class="resume_container">
+              <div id="radio_words">
+                <p id="radio_section_markdown" class="resume_words"> As a senior at CU Boulder I worked as team lead with 5 other students to design and implement a DJ assistant tool for Radio 1190. This tool would serve two purposes, first there would be an automated DJ to play when a physical dj was not present at the station. This could be turned on at any time and was required to play continuously until turned off. The station also required that certain ads and station sweepers would be played at specific time of the hour. To manage this a database of all digital songs, ads, and sweepers was created then playlists with all required material would be generated daily at the beginning of the day. When the system is switched into AutoDJ mode a playlist that matched the current hour would be loaded and the song that matched the minute of the hour would start to play. <br>
+ The second part of the project was to create an intereface to help live DJs manage sets and live music. For this a database of all CDs in the station was created and daily playlists generated. These playlists however are filled with holes for DJ music picks and can be edited on the fly. This part of the project also included hot buttons and notifications to simplify the flow of being a DJ by allowing sweepers to instantly be queued up and notifications to help mitigate forgotten ads. <br>
+ The last part of the project that enveloped both other pieces was creating a logging system to keep track of played songs and ads for legal reasons and creating a backend for admins to add songs to the database, edit custom shows, and tweak playlist creation settings. <br>
+ For this project my responsibilities were day to day task management for the team, version control manager using GIT, managing client expectations in response to team resources, and I was lead designer for the interface including User Interface mockups, Coding, and User Experience Testing. This project was web based with AngularJs powering the front end, Django handling admin interactions and custom python creating playlists and other backend interactions. I worked primarily in photoshop for mockups, CSS for interface styling, and some javascript for user interactions.
+                </p>
+              </div>
+              <div id="radio_mockup">
+                <figure><img src="images/resume/live_concept8.png">
+                  <figcaption>Here is an example of a mockup for the intereface</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
           <div id="resume_panel3" class="content_panel">
             <p class="panel_description">Space Research Company</p>
+            <div class="resume_container">
+              <div id="space_words">
+                <p id="space_section_markdown" class="resume_words">Part of the thesis projects class to end my Minor in Technology, Arts, and Media was to find a client on campus and then design and create some sort of graphic content for them. My group which consisted of me and three others did our work for The Space Research Company which is an aerospace engineering startup company out of the engineering school and CU Boulder. This was a unique expereience because the company was so new that they didn't have any logo or company image at all. So we started with creating a logo. We went through a very larg number of iteration involving the logo as we slowly came to align their ideals for the company with the look that they wanted. Below are a few of my personal logos that emerged from the process. <br>
+
+Once we settled on the logo we designed many smaller assets for them including business cards, a powerpoint template, and a document header. Next was creating a website for the company. They had already started a basic template website with squarespace so we decided to build off of that so that they could easily change in the future despite the lack of control when considering a hand built site. The website can be found here: <a href="http://www.thespaceresearchcompany.com/">http://www.thespaceresearchcompany.com/ </a> <br>
+
+The last piece of design was a promotional video designed to showcase their main product and the steps that clients would have to use it. Their product is a small cube satellite that clients would buy and put experiments into. The video showcased the launch the satellite and how the product would perform in space. This video was created using after effects for 2d animation combined with maya for 3d renders of the product, with images and video shot by me.
+                </p>
+              </div>
+            </div>
           </div>
           <div id="resume_panel4" class="content_panel">
             <p class="panel_description">MyThinkSpace</p>
+            <div class="resume_container">
+              <div id="thinkspace_words">
+                <p id="thinkspace_section_markdown" class="resume_words">As part of my coursework I took a class based on the fundamentals of creating a startup company. This included interviewing people to test the viability of a product idea. The class culminated in the New Venture Challenge competition where many startup companies and ideas competed against each other for money. My startup, which consisted of Hannah Thomas and I was based on the idea of linking many different cloud services such as evernote and dropbox into a single experience. A mindmap like structure would try to group and link project that are similar into close proximity even if the projects aren't in close or similar locations on the computer. We tried to show that the folder structure was old fashioned and a new structure was needed. The idea didn't go far because the time needed was too great and we didn't have enough resources. Below is the logo I designed for the project.
+                </p>
+              </div>
+              <div class="resume_small_container">
+                <figure><img src="images/graphic_design/full/my_think_space.svg">
+                  <figcatption>Logo I designed for the Project</figcatption>
+                </figure>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -120,9 +155,11 @@ fix bugs for a future web based settop box user interface using primarily Javasc
           <div id="work_panel2" class="content_panel">
             <div id="graph_design" class="panel_media">
               <figure class="item"><a title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu.png"><img src="images/graphic_design/thumbs/ubuntu300.png" class="gallery_image"></a>
-                <p>typography poster</p>
+                <figcatpion>Type Spec Poster</figcatpion>
               </figure>
-              <figure class="item"></figure><a title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg"><img src="images/graphic_design/thumbs/my_think_space.svgco" class="gallery_image"></a>
+              <figure class="item"><a title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg"><img src="images/graphic_design/full/my_think_space.svg" class="gallery_image"></a>
+                <figcaption>MyThinkSpace Logo	</figcaption>
+              </figure>
               <p>typography poster</p>
             </div>
           </div>
@@ -147,7 +184,7 @@ fix bugs for a future web based settop box user interface using primarily Javasc
               <figure class="item"><a title="marble" rel="lightbox-gal2" href="images/digital_art/full/marble.png"><img src="images/digital_art/thumbs/marble300.png" class="gallery_image"></a>
                 <figcaption>Example Description </figcaption>
               </figure>
-              <figure class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.png"><img src="images/digital_art/thumbs/spines300.png" class="gallery_image"></a>
+              <figure class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.png"> <img src="images/digital_art/thumbs/spines300.png" class="gallery_image"></a>
                 <figcaption>derp</figcaption>
               </figure>
               <figure class="item"><a title="of_squares" rel="lightbox-gal2" href="images/digital_art/full/of_squares.png"><img src="images/digital_art/thumbs/of_squares300.png" class="gallery_image"></a>
@@ -184,7 +221,7 @@ fix bugs for a future web based settop box user interface using primarily Javasc
           </div>
           <div id="fun_panel2" class="content_panel">
             <div id="photography" class="panel_media">
-              <div class="item"><a title="Golden Gate Bridge" rel="lightbox-gal3" href="images/photography/full/bridge.JPG"><img src="images/photography/thumbs/bridge300.JPG" class="gallery_image"></a></div>
+              <div class="item"><a title="Golden Gate Bridge" rel="lightbox-gal3" href="images/photography/full/bridge.JPG"> <img src="images/photography/thumbs/bridge300.JPG" class="gallery_image"></a></div>
               <div class="item"><a title="Niagra Falls" rel="lightbox-gal3" href="images/photography/full/falls.JPG"><img src="images/photography/thumbs/falls300.JPG" class="gallery_image"></a></div>
               <div class="item"><a title="Light through the Rocks" rel="lightbox-gal3" href="images/photography/full/light.JPG"><img src="images/photography/thumbs/light300.JPG" class="gallery_image"></a></div>
               <div class="item"><a title="Turtle in the Virgin Islands" rel="lightbox-gal3" href="images/photography/full/turtle.JPG"><img src="images/photography/thumbs/turtle300.JPG" class="gallery_image"></a>
