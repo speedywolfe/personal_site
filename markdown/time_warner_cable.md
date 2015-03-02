@@ -1,0 +1,5 @@
+I worked at Time Warner Cable as a software Engineering intern for two summers during 2013 and 2014.
+
+For the summer of 2013 I worked with a group of three other interns testing prototype set top box hardware such as DVRs. This hardware was focused on playing all media through an HTML5 built intereface as opposed to older interefaces running on legacy software. Our job was to attempt to stream different types of media through the new hardware to see how quickly and easily old media avenues could be changed to the new hardware. The project included writing web applications using HTML5, CSS, and Javascript with an emphasis on music and video streaming APIs. 
+
+For the Summer of 2014 I worked with a large software developement team writing the newest web based application for set top boxes. Most of the features for the application were already implemented so I focused mostly on bug fixing and testing for the software. The entirety of the software was written in javascript and included a large number of external libraries for event handling. Daily scrum meetings were held to discuss and implement features and fix bugs.

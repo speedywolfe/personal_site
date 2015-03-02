@@ -51,6 +51,10 @@ $element_height: 800px;
 	font-weight: bold;
 }
 
+.more_space {
+	margin: 5px;
+}
+
 /*---------------------------------------------*/
 /* Full Document Styles */
 /*---------------------------------------------*/
@@ -330,6 +334,10 @@ $gallery_image_height: 150px;
 	@extend .main-image;
 }
 
+.lightbox-gal3 {
+	height: 1000px;
+}
+
 #fun_panel1 {
 	opacity: 1.0;
 	z-index: 5;
@@ -348,8 +356,20 @@ $gallery_image_height: 150px;
 /* Contact */
 /*---------------------------------------------*/
 #contact {
-	position: relative;
 	height: 70px;
 	background-color: white;
 }
 
+#contact_title {
+	font-size: 48px;
+}
+
+#contact_info {
+	@extend .parent;
+	color: $main_blue;
+}
+
+#contact_info a:link, visited, hover, active {
+	color: $main_blue;
+	text-decoration: none;
+}

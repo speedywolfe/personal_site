@@ -4,7 +4,8 @@ div(id="resume")
 		p(id="res_sel" class="active" onclick="switch_panel('resume_panel', 1, 'res_sel');") Experience and Skills
 		p(id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');") Radio 1190
 		p(id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');") Space Research Company
-		p(id="think_sel" onclick="switch_panel('resume_panel', 4, 'think_sel');") MyThinkSpace
+		p(id="warner_sel" onclick="switch_panel('resume_panel', 4, 'warner_sel');") Time Warner Cable
+		p(id="think_sel" onclick="switch_panel('resume_panel', 5, 'think_sel');") MyThinkSpace
 
 	div(id="resume_content")
 		div(id="resume_panel1" class="content_panel")
@@ -67,6 +68,12 @@ div(id="resume")
 				div(id="space_words" )
 					p(id="space_section_markdown" class="resume_words")
 						include ../markdown/space_research_company.md
+		div(id="resume_panel4" class="content_panel")
+			p(class="panel_description") Time Warner Cable
+			div(class="resume_container")
+				div(id="warner_words" )
+					p(id="space_section_markdown" class="resume_words")
+						include ../markdown/time_warner_cable.md
 		div(id="resume_panel4" class="content_panel")
 			p(class="panel_description") MyThinkSpace
 			div(class="resume_container")
