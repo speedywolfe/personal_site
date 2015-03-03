@@ -13,14 +13,14 @@
   <body>
     <div id="container">
       <div id="top_bar">
-        <p onclick="$.scrollTo('0', 1000);">About me</p>
-        <p onclick="$.scrollTo('970', 1000);">Resume</p>
+        <p onclick="$.scrollTo('0', 1000);" class="main_nav">Me</p>
+        <p onclick="$.scrollTo('970', 1000);" class="main_nav">Resume</p>
         <p id="my_name">Mitchell Wolfe</p>
-        <p onclick="$.scrollTo('1800', 1000);">Work</p>
-        <p onclick="$.scrollTo('2630', 1000);">Fun</p>
+        <p onclick="$.scrollTo('1800', 1000);" class="main_nav">Portfolio</p>
+        <p onclick="$.scrollTo('2630', 1000);" class="main_nav">For Fun</p>
       </div>
       <div id="about_me">
-        <p id="about_me_title" class="content_area_title">About me</p><img id="portrait" src="images/portrait.png"><img id="skill_graph" src="images/skills_graph.svg">
+        <p id="about_me_title" class="content_area_title">Me</p><img id="portrait" src="images/main_page/portrait.gif"><img id="skill_graph" src="images/main_page/skills_graph.svg">
         <div class="content_panel">
           <p id="about_me_text"> Hello my name is Mitchell Wolfe and I create things. I love designing websites, interefaces, brands, logos, and graphics. However, I also love programming, anywhere from games and computer graphics to unix scripts and generative art, though my passion is web programming. My motivation for all of this is to tell stories through technology.
           </p>
@@ -29,11 +29,11 @@
       <div id="resume">
         <div id="resume_nav_container" class="content_nav_container">
           <p class="content_area_title">Resume</p>
-          <p id="res_sel" onclick="switch_panel('resume_panel', 1, 'res_sel');" class="active">Experience and Skills</p>
-          <p id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');">Radio 1190</p>
-          <p id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');">Space Research Company</p>
-          <p id="warner_sel" onclick="switch_panel('resume_panel', 4, 'warner_sel');">Time Warner Cable</p>
-          <p id="think_sel" onclick="switch_panel('resume_panel', 5, 'think_sel');">MyThinkSpace</p>
+          <p id="res_sel" onclick="switch_panel('resume_panel', 1, 'res_sel');" class="active slice">Experience and Skills</p>
+          <p id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');" class="slice">Radio 1190</p>
+          <p id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');" class="slice">Space Research Company</p>
+          <p id="warner_sel" onclick="switch_panel('resume_panel', 4, 'warner_sel');" class="slice">Time Warner Cable</p>
+          <p id="think_sel" onclick="switch_panel('resume_panel', 5, 'think_sel');" class="slice">MyThinkSpace</p>
         </div>
         <div id="resume_content">
           <div id="resume_panel1" class="content_panel">
@@ -108,7 +108,7 @@ fix bugs for a future web based settop box user interface using primarily Javasc
                 </p>
               </div>
               <div id="radio_mockup">
-                <figure><img src="images/resume/live_concept8.png">
+                <figure><img src="images/resume/live_concept8.gif">
                   <figcaption>Here is an example of a mockup for the intereface</figcaption>
                 </figure>
               </div>
@@ -131,16 +131,16 @@ The last piece of design was a promotional video designed to showcase their main
             <p class="panel_description">Time Warner Cable</p>
             <div class="resume_container">
               <div id="warner_words">
-                <p id="space_section_markdown" class="resume_words">I worked at Time Warner Cable as a software Engineering intern for two summers during 2013 and 2014.
+                <p id="space_section_markdown" class="resume_words">I worked at Time Warner Cable as a software Engineering intern for two summers during 2013 and 2014. <br>
 
-For the summer of 2013 I worked with a group of three other interns testing prototype set top box hardware such as DVRs. This hardware was focused on playing all media through an HTML5 built intereface as opposed to older interefaces running on legacy software. Our job was to attempt to stream different types of media through the new hardware to see how quickly and easily old media avenues could be changed to the new hardware. The project included writing web applications using HTML5, CSS, and Javascript with an emphasis on music and video streaming APIs. 
+For the summer of 2013 I worked with a group of three other interns testing prototype set top box hardware such as DVRs. This hardware was focused on playing all media through an HTML5 built intereface as opposed to older interefaces running on legacy software. Our job was to attempt to stream different types of media through the new hardware to see how quickly and easily old media avenues could be changed to the new hardware. The project included writing web applications using HTML5, CSS, and Javascript with an emphasis on music and video streaming APIs. <br>
 
 For the Summer of 2014 I worked with a large software developement team writing the newest web based application for set top boxes. Most of the features for the application were already implemented so I focused mostly on bug fixing and testing for the software. The entirety of the software was written in javascript and included a large number of external libraries for event handling. Daily scrum meetings were held to discuss and implement features and fix bugs.
                 </p>
               </div>
             </div>
           </div>
-          <div id="resume_panel4" class="content_panel">
+          <div id="resume_panel5" class="content_panel">
             <p class="panel_description">MyThinkSpace</p>
             <div class="resume_container">
               <div id="thinkspace_words">
@@ -149,7 +149,7 @@ For the Summer of 2014 I worked with a large software developement team writing 
               </div>
               <div class="resume_small_container">
                 <figure><img src="images/graphic_design/full/my_think_space.svg">
-                  <figcatption>Logo I designed for the Project</figcatption>
+                  <figcaption>Logo I designed for the Project</figcaption>
                 </figure>
               </div>
             </div>
@@ -158,140 +158,147 @@ For the Summer of 2014 I worked with a large software developement team writing 
       </div>
       <div id="work">
         <div id="work_nav_container" class="content_nav_container">
-          <p class="content_area_title">Work</p>
-          <p id="graph_design_sel" onclick="switch_panel('work_panel', 1, 'graph_design_sel');" class="active">Graphic Design</p>
-          <p id="after_effects_sel" onclick="switch_panel('work_panel', 2, 'after_effects_sel');">After Effects</p>
-          <p id="comp_graph_sel" onclick="switch_panel('work_panel', 3, 'comp_graph_sel');">Computer Graphics</p>
+          <p class="content_area_title">Portfolio</p>
+          <p id="graph_design_sel" onclick="switch_panel('work_panel', 1, 'graph_design_sel');" class="active slice">Graphic Design</p>
+          <p id="after_effects_sel" onclick="switch_panel('work_panel', 2, 'after_effects_sel');" class="slice">After Effects</p>
+          <p id="comp_graph_sel" onclick="switch_panel('work_panel', 3, 'comp_graph_sel');" class="slice">Computer Graphics</p>
         </div>
         <div id="work_content">
           <div id="work_panel1" class="content_panel">
             <p class="panel_Description">A selection of various graphic design works.</p>
             <div id="graph_design" class="panel_media">
-              <figure class="item more_space"><a title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu800.png"><img src="images/graphic_design/thumbs/ubuntu300.png" class="gallery_image"></a>
+              <figure class="item more_space"><a title="ubuntu" rel="lightbox-gal1" href="images/graphic_design/full/ubuntu800.gif"><img src="images/graphic_design/thumbs/ubuntu300.gif" class="gallery_image"></a>
                 <figcaption>Type Spec Poster</figcaption>
               </figure>
               <figure class="item more_space"><a title="mythinkspace" rel="lightbox-gal1" href="images/graphic_design/full/my_think_space.svg"><img src="images/graphic_design/full/my_think_space.svg" class="gallery_image"></a>
                 <figcaption>MyThinkSpace Logo	</figcaption>
               </figure>
-              <figure class="item more_space"><a title="The Bully" rel="lightbox-gal1" href="images/graphic_design/full/front_cover.png"><img src="images/graphic_design/thumbs/front_cover300.png" class="gallery_image"></a>
+              <figure class="item more_space"><a title="The Bully" rel="lightbox-gal1" href="images/graphic_design/full/front_cover.gif"><img src="images/graphic_design/thumbs/front_cover300.gif" class="gallery_image"></a>
                 <figcaption>Cover for Digital Comic 
                 </figcaption>
               </figure>
-              <figure class="item more_space"><a title="City Logo Color" rel="lightbox-gal1" href="images/graphic_design/full/kuala_lumpur_color800.png"><img src="images/graphic_design/thumbs/kuala_lumpur_color300.png" class="gallery_image"></a>
+              <figure class="item more_space"><a title="City Logo Color" rel="lightbox-gal1" href="images/graphic_design/full/kuala_lumpur_color800.gif"><img src="images/graphic_design/thumbs/kuala_lumpur_color300.gif" class="gallery_image"></a>
                 <figcaption>Color City</figcaption>
               </figure>
-              <figure class="item more_space"><a title="City Logo Color B&amp;W" rel="lightbox-gal1" href="images/graphic_design/full/kuala_lumpur_bw800.png"><img src="images/graphic_design/thumbs/kuala_lumpur_bw300.png" class="gallery_image"></a>
+              <figure class="item more_space"><a title="City Logo Color B&amp;W" rel="lightbox-gal1" href="images/graphic_design/full/kuala_lumpur_bw800.gif"><img src="images/graphic_design/thumbs/kuala_lumpur_bw300.gif" class="gallery_image"></a>
                 <figcaption>BW City Logo</figcaption>
               </figure>
-              <figure class="item more_space"><a title="Typography With Bottles" rel="lightbox-gal1" href="images/graphic_design/full/typography.jpg"><img src="images/graphic_design/thumbs/typography300.jpg" class="gallery_image"></a>
+              <figure class="item more_space"><a title="Typography With Bottles" rel="lightbox-gal1" href="images/graphic_design/full/typography.gif"><img src="images/graphic_design/thumbs/typography300.gif" class="gallery_image"></a>
                 <figcaption>Typeface with Bottles</figcaption>
               </figure>
-              <figure class="item more_space"><a title="Selfie Book Cover" rel="lightbox-gal1" href="images/graphic_design/full/selfie_cover.jpg"><img src="images/graphic_design/thumbs/selfie_cover300.jpg" class="gallery_image"></a>
+              <figure class="item more_space"><a title="Selfie Book Cover" rel="lightbox-gal1" href="images/graphic_design/full/selfie_cover.gif"><img src="images/graphic_design/thumbs/selfie_cover300.gif" class="gallery_image"></a>
                 <figcaption>Book Cover</figcaption>
               </figure>
             </div>
           </div>
           <div id="work_panel2" class="content_panel">
             <div id="after_effects" class="panel_media">
-              <div class="item"><iframe width="420" height="315" src="https://www.youtube.com/embed/vFmhnodMOxk" frameborder="0" allowfullscreen></iframe></div>
-              <div class="item"><iframe width="420" height="315" src="https://www.youtube.com/embed/snoDRaD50RE" frameborder="0" allowfullscreen></iframe></div>
+              <div class="item"><iframe width="480" height="360" src="https://www.youtube.com/embed/vFmhnodMOxk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <p>Animation about Chaos</p>
+              </div>
+              <div class="item"><iframe width="480" height="360" src="https://www.youtube.com/embed/snoDRaD50RE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <p>Animation about Peoples' digital posessions after death</p>
+              </div>
             </div>
           </div>
           <div id="work_panel3" class="content_panel">
             <div id="comp_graph" class="panel_media">
-              <div class="item"><iframe width="800" height="600" src="http://www.youtube.com/embed/1-EfT6M90CY?rel=0" frameborder="0" allowfullscreen> </iframe></div>
+              <div class="item"><iframe width="640" height="360" src="https://www.youtube.com/embed/1-EfT6M90CY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
             </div>
           </div>
         </div>
       </div>
       <div id="fun">
         <div id="fun_nav_container" class="content_nav_container">
-          <p class="content_area_title">Fun</p>
-          <p id="gen_art_sel" onclick="switch_panel('fun_panel', 1, 'gen_art_sel');" class="active">Generative Art</p>
-          <p id="photography_sel" onclick="switch_panel('fun_panel', 2, 'photography_sel');">Photography</p>
+          <p class="content_area_title">For Fun</p>
+          <p id="gen_art_sel" onclick="switch_panel('fun_panel', 1, 'gen_art_sel');" class="active slice">Generative Art</p>
+          <p id="photography_sel" onclick="switch_panel('fun_panel', 2, 'photography_sel');" class="slice">Photography</p>
         </div>
         <div id="fun_content">
           <div id="fun_panel1" class="content_panel">
             <p class="panel_description">Here is a selection of images created using generative art techniques.</p>
             <div id="dig_art" class="panel_media">
-              <figure class="item"><a title="marble" rel="lightbox-gal2" href="images/digital_art/full/marble.png"><img src="images/digital_art/thumbs/marble300.png" class="gallery_image"></a>
+              <figure class="item"><a title="marble" rel="lightbox-gal2" href="images/digital_art/full/marble.gif"><img src="images/digital_art/thumbs/marble300.gif" class="gallery_image"></a>
                 <figcaption>Marble </figcaption>
               </figure>
-              <figure class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.png"> <img src="images/digital_art/thumbs/spines300.png" class="gallery_image"></a>
+              <figure class="item"><a title="spines" rel="lightbox-gal2" href="images/digital_art/full/spines.gif"> <img src="images/digital_art/thumbs/spines300.gif" class="gallery_image"></a>
                 <figcaption>Spines</figcaption>
               </figure>
-              <figure class="item"><a title="of_squares" rel="lightbox-gal2" href="images/digital_art/full/of_squares.png"><img src="images/digital_art/thumbs/of_squares300.png" class="gallery_image"></a>
+              <figure class="item"><a title="of_squares" rel="lightbox-gal2" href="images/digital_art/full/of_squares.gif"><img src="images/digital_art/thumbs/of_squares300.gif" class="gallery_image"></a>
                 <figcaption>Of Squares</figcaption>
               </figure>
-              <figure class="item"><a title="travels" rel="lightbox-gal2" href="images/digital_art/full/travels.png"><img src="images/digital_art/thumbs/travels300.png" class="gallery_image"></a>
+              <figure class="item"><a title="travels" rel="lightbox-gal2" href="images/digital_art/full/travels.gif"><img src="images/digital_art/thumbs/travels300.gif" class="gallery_image"></a>
                 <figcaption>Travels</figcaption>
               </figure>
-              <figure class="item"><a title="calligraphy" rel="lightbox-gal2" href="images/digital_art/full/calligraphy.png"><img src="images/digital_art/thumbs/calligraphy300.png" class="gallery_image"></a>
-                <figcaption>Calligraphy</figcaption>
-              </figure>
-              <figure class="item"><a title="twins" rel="lightbox-gal2" href="images/digital_art/full/twins.png"><img src="images/digital_art/thumbs/twins300.png" class="gallery_image"></a>
+              <figure class="item"><a title="twins" rel="lightbox-gal2" href="images/digital_art/full/twins.gif"><img src="images/digital_art/thumbs/twins300.gif" class="gallery_image"></a>
                 <figcaption>Twins</figcaption>
               </figure>
-              <figure class="item"><a title="detrimental" rel="lightbox-gal2" href="images/digital_art/full/detrimental.png"><img src="images/digital_art/thumbs/detrimental300.png" class="gallery_image"></a>
+              <figure class="item"><a title="detrimental" rel="lightbox-gal2" href="images/digital_art/full/detrimental.gif"><img src="images/digital_art/thumbs/detrimental300.gif" class="gallery_image"></a>
                 <figcaption>Detrimental</figcaption>
               </figure>
-              <figure class="item"><a title="the_grid" rel="lightbox-gal2" href="images/digital_art/full/the_grid.png"><img src="images/digital_art/thumbs/the_grid300.png" class="gallery_image"></a>
+              <figure class="item"><a title="the_grid" rel="lightbox-gal2" href="images/digital_art/full/the_grid.gif"><img src="images/digital_art/thumbs/the_grid300.gif" class="gallery_image"></a>
                 <figcaption>The Grid</figcaption>
               </figure>
-              <figure class="item"><a title="star_shower" rel="lightbox-gal2" href="images/digital_art/full/star_shower.png"><img src="images/digital_art/thumbs/star_shower300.png" class="gallery_image"></a>
+              <figure class="item"><a title="star_shower" rel="lightbox-gal2" href="images/digital_art/full/star_shower.gif"><img src="images/digital_art/thumbs/star_shower300.gif" class="gallery_image"></a>
                 <figcaption>Star Shower</figcaption>
               </figure>
-              <figure class="item"><a title="sharp_ooze" rel="lightbox-gal2" href="images/digital_art/full/sharp_ooze.png"><img src="images/digital_art/thumbs/sharp_ooze300.png" class="gallery_image"></a>
+              <figure class="item"><a title="sharp_ooze" rel="lightbox-gal2" href="images/digital_art/full/sharp_ooze.gif"><img src="images/digital_art/thumbs/sharp_ooze300.gif" class="gallery_image"></a>
                 <figcaption>Sharp Ooze</figcaption>
               </figure>
-              <figure class="item"><a title="motherboard" rel="lightbox-gal2" href="images/digital_art/full/motherboard.png"><img src="images/digital_art/thumbs/motherboard300.png" class="gallery_image"></a>
+              <figure class="item"><a title="motherboard" rel="lightbox-gal2" href="images/digital_art/full/motherboard.gif"><img src="images/digital_art/thumbs/motherboard300.gif" class="gallery_image"></a>
                 <figcaption>Motherboard</figcaption>
               </figure>
-              <figure class="item"><a title="cylinder_night" rel="lightbox-gal2" href="images/digital_art/full/cylinder_night.png"><img src="images/digital_art/thumbs/cylinder_night300.png" class="gallery_image"></a>
+              <figure class="item"><a title="cylinder_night" rel="lightbox-gal2" href="images/digital_art/full/cylinder_night.gif"><img src="images/digital_art/thumbs/cylinder_night300.gif" class="gallery_image"></a>
                 <figcaption>Cylinder Night</figcaption>
+              </figure>
+              <figure class="item"><a title="Color Wheel" rel="lightbox-gal2" href="images/digital_art/full/color_wheel.gif"><img src="images/digital_art/thumbs/color_wheel300.gif" class="gallery_image"></a>
+                <figcaption>Color Wheel</figcaption>
+              </figure>
+              <figure class="item"><a title="Haunting Blur" rel="lightbox-gal2" href="images/digital_art/full/haunting_blur.gif"><img src="images/digital_art/thumbs/haunting_blur300.gif" class="gallery_image"></a>
+                <figcaption>Haunting Blur</figcaption>
               </figure>
             </div>
           </div>
           <div id="fun_panel2" class="content_panel">
             <p class="panel_description">My specialty for photography is low light and night with an emphasis on light painting. I also enjoy landscape and macro photography. </p>
             <div id="photography" class="panel_media">
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/framed800.png"> <img src="images/photography/thumbs/framed300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/framed800.gif"> <img src="images/photography/thumbs/framed300.gif" class="gallery_image"></a>
                 <figcaption>Framed</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/gate800.png"><img src="images/photography/thumbs/gate300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/gate800.gif"><img src="images/photography/thumbs/gate300.gif" class="gallery_image"></a>
                 <figcaption>Through the Gate</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/anyone_home800.png"><img src="images/photography/thumbs/anyone_home300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/anyone_home800.gif"><img src="images/photography/thumbs/anyone_home300.gif" class="gallery_image"></a>
                 <figcaption>Anyone Home</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/streak800.png"><img src="images/photography/thumbs/streak300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/streak800.gif"><img src="images/photography/thumbs/streak300.gif" class="gallery_image"></a>
                 <figcaption>Streaks</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/light_my_way800.jpg"><img src="images/photography/thumbs/light_my_way300.jpg" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/light_my_way800.gif"><img src="images/photography/thumbs/light_my_way300.gif" class="gallery_image"></a>
                 <figcaption>Light My Way</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/coordinates800.jpg"><img src="images/photography/thumbs/coordinates300.jpg" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/coordinates800.gif"><img src="images/photography/thumbs/coordinates300.gif" class="gallery_image"></a>
                 <figcaption>Coordinates</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/sequence800.png"><img src="images/photography/thumbs/sequence300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/sequence800.gif"><img src="images/photography/thumbs/sequence300.gif" class="gallery_image"></a>
                 <figcaption>Sequence</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/purple_flower800.png"><img src="images/photography/thumbs/purple_flower300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/purple_flower800.gif"><img src="images/photography/thumbs/purple_flower300.gif" class="gallery_image"></a>
                 <figcaption>A Macro Flower</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/red_flower800.png"><img src="images/photography/thumbs/red_flower300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/red_flower800.gif"><img src="images/photography/thumbs/red_flower300.gif" class="gallery_image"></a>
                 <figcaption>Another Flower</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/moon800.png"><img src="images/photography/thumbs/moon300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/moon800.gif"><img src="images/photography/thumbs/moon300.gif" class="gallery_image"></a>
                 <figcaption>Red moon</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/dark_beach800.png"><img src="images/photography/thumbs/dark_beach300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/dark_beach800.gif"><img src="images/photography/thumbs/dark_beach300.gif" class="gallery_image"></a>
                 <figcaption>Beach Fog</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/fortress800.jpg"><img src="images/photography/thumbs/fortress300.jpg" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/fortress800.gif"><img src="images/photography/thumbs/fortress300.gif" class="gallery_image"></a>
                 <figcaption>Fortress Rock</figcaption>
               </figure>
-              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/lookout800.png"><img src="images/photography/thumbs/lookout300.png" class="gallery_image"></a>
+              <figure class="item"><a title="" rel="lightbox-gal3" href="images/photography/full/lookout800.gif"><img src="images/photography/thumbs/lookout300.gif" class="gallery_image"></a>
                 <figcaption>Lookout</figcaption>
               </figure>
             </div>
@@ -300,7 +307,7 @@ For the Summer of 2014 I worked with a large software developement team writing 
       </div>
       <div id="contact">
         <div id="contact_info">
-          <p id="contact_title">Contact:</p><a href="mailto:speedywolfe@gmail.com">Email Me</a><a href="http://www.linkedin.com/in/wolfemitchell" target="_blank">linkedin</a>
+          <p id="contact_title">Contact:</p><a href="mailto:speedywolfe@gmail.com"><img src="images/main_page/email_icon.gif"></a><a href="http://www.linkedin.com/in/wolfemitchell" target="_blank"><img src="images/main_page/linkedin_logo.gif"></a>
           <p id="site_info">Site coding and design by Mitchell Wolfe </p>
         </div>
       </div>

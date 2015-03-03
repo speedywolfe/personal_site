@@ -7,7 +7,7 @@
 /* Globals */
 /*---------------------------------------------*/ 
 $main_blue: #16669f;
-$possible_Red: #AC2B29;
+$main_red: #AC2B29;
 
 $page_width: 100%;
 $element_height: 800px;
@@ -33,7 +33,7 @@ $element_height: 800px;
 
 .main-image {
 	padding: 5px;
-	height: 150px;
+	height: 220px;
 }
 
 .parent {
@@ -49,10 +49,6 @@ $element_height: 800px;
 
 .active {
 	font-weight: bold;
-}
-
-.more_space {
-	margin: 5px;
 }
 
 /*---------------------------------------------*/
@@ -81,10 +77,19 @@ body {
 
 figure {
 	text-align: center;
+	height: 300px;
+}
+
+figcaption {
+	margin-top: 250px;
 }
 
 br {
 	margin-bottom: 10px;
+}
+
+.slice:hover {
+	text-decoration: line-through;
 }
 
 /*---------------------------------------------*/
@@ -119,6 +124,11 @@ $gallery_image_height: 150px;
 
 #top_bar p:not(#my_name) {
 	@extend .add-cursor;
+}
+
+#top_bar p:hover:not(#my_name) {
+	text-decoration: line-through;
+
 }
 
 #my_name {
@@ -181,6 +191,12 @@ $gallery_image_height: 150px;
 .item {
 	// height: 300px;
 	float: left;
+	border-style: solid;
+	border-color: $main_red;
+	border-width: 1px;
+	border-radius: 5px;
+	margin: 5px;
+	height: 280px;
 }
 
 .item p {
@@ -203,11 +219,13 @@ $gallery_image_height: 150px;
 	position: absolute;
 	bottom: 0px;
 	float: left;
-	height: 600px;
+	max-width: 45%;
+	height: auto;
 }
 
 #skill_graph {
 	position: absolute;
+	max-width: 45%;
 	bottom: 20px;
 	right: 0px;
 	height: 600px;
@@ -277,6 +295,10 @@ $gallery_image_height: 150px;
 	width: 80%;
 }
 
+#resume_content figcaption {
+	margin-top: 0;
+}
+
 #mythinkspace_logo {
 	height: 400px;
 }
@@ -301,11 +323,21 @@ $gallery_image_height: 150px;
 	z-index: -1;
 }
 
+
+#resume_panel5 {
+	opacity: 0;
+	z-index: -1;
+}
+
 /*---------------------------------------------*/
 /* work */
 /*---------------------------------------------*/
 #work {
 	@extend .primary;
+}
+
+#work_content img {
+	@extend .main-image;
 }
 
 #work_panel1 {
@@ -372,4 +404,9 @@ $gallery_image_height: 150px;
 #contact_info a:link, visited, hover, active {
 	color: $main_blue;
 	text-decoration: none;
+}
+
+#contact_info img {
+	margin-top: 10px;
+	height: 50px;
 }

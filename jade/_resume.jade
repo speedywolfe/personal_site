@@ -1,11 +1,11 @@
 div(id="resume")
 	div(id="resume_nav_container" class="content_nav_container")
 		p(class="content_area_title") Resume
-		p(id="res_sel" class="active" onclick="switch_panel('resume_panel', 1, 'res_sel');") Experience and Skills
-		p(id="radio_sel" onclick="switch_panel('resume_panel', 2, 'radio_sel');") Radio 1190
-		p(id="space_sel" onclick="switch_panel('resume_panel', 3, 'space_sel');") Space Research Company
-		p(id="warner_sel" onclick="switch_panel('resume_panel', 4, 'warner_sel');") Time Warner Cable
-		p(id="think_sel" onclick="switch_panel('resume_panel', 5, 'think_sel');") MyThinkSpace
+		p(id="res_sel" class="active" class="slice" onclick="switch_panel('resume_panel', 1, 'res_sel');") Experience and Skills
+		p(id="radio_sel" class="slice" onclick="switch_panel('resume_panel', 2, 'radio_sel');") Radio 1190
+		p(id="space_sel" class="slice" onclick="switch_panel('resume_panel', 3, 'space_sel');") Space Research Company
+		p(id="warner_sel" class="slice" onclick="switch_panel('resume_panel', 4, 'warner_sel');") Time Warner Cable
+		p(id="think_sel" class="slice" onclick="switch_panel('resume_panel', 5, 'think_sel');") MyThinkSpace
 
 	div(id="resume_content")
 		div(id="resume_panel1" class="content_panel")
@@ -60,7 +60,7 @@ div(id="resume")
 						include ../markdown/radio1190.md
 				div(id="radio_mockup")
 					figure
-						img(src="images/resume/live_concept8.png")
+						img(src="images/resume/live_concept8.gif")
 						figcaption Here is an example of a mockup for the intereface
 		div(id="resume_panel3" class="content_panel")
 			p(class="panel_description") Space Research Company
@@ -74,7 +74,7 @@ div(id="resume")
 				div(id="warner_words" )
 					p(id="space_section_markdown" class="resume_words")
 						include ../markdown/time_warner_cable.md
-		div(id="resume_panel4" class="content_panel")
+		div(id="resume_panel5" class="content_panel")
 			p(class="panel_description") MyThinkSpace
 			div(class="resume_container")
 				div(id="thinkspace_words")
@@ -83,6 +83,6 @@ div(id="resume")
 				div(class="resume_small_container")
 					figure
 						img(src="images/graphic_design/full/my_think_space.svg")
-						figcatption Logo I designed for the Project
+						figcaption Logo I designed for the Project
 
 				

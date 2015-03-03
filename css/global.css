@@ -20,9 +20,9 @@
 .add-cursor, #top_bar p:not(#my_name), .content_nav_container p:not(.content_area_title) {
   cursor: pointer; }
 
-.main-image, #fun_content img {
+.main-image, #work_content img, #fun_content img {
   padding: 5px;
-  height: 150px; }
+  height: 220px; }
 
 .parent, #top_bar, .content_nav_container, .panel_media, .resume_container, #contact_info {
   display: flex;
@@ -36,9 +36,6 @@
 
 .active {
   font-weight: bold; }
-
-.more_space {
-  margin: 5px; }
 
 /*---------------------------------------------*/
 /* Full Document Styles */
@@ -61,10 +58,17 @@ body {
   font-family: liberation;
   src: url(../resources/liberation.ttf); }
 figure {
-  text-align: center; }
+  text-align: center;
+  height: 300px; }
+
+figcaption {
+  margin-top: 250px; }
 
 br {
   margin-bottom: 10px; }
+
+.slice:hover {
+  text-decoration: line-through; }
 
 /*---------------------------------------------*/
 /* Gallery */
@@ -90,6 +94,9 @@ br {
   overflow: hidden;
   color: white;
   font-size: 30px; }
+
+#top_bar p:hover:not(#my_name) {
+  text-decoration: line-through; }
 
 #my_name {
   font-size: 48px; }
@@ -134,7 +141,13 @@ br {
   padding-left: 50px; }
 
 .item {
-  float: left; }
+  float: left;
+  border-style: solid;
+  border-color: #AC2B29;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 280px; }
 
 .item p {
   font-size: 14px; }
@@ -149,10 +162,12 @@ br {
   position: absolute;
   bottom: 0px;
   float: left;
-  height: 600px; }
+  max-width: 45%;
+  height: auto; }
 
 #skill_graph {
   position: absolute;
+  max-width: 45%;
   bottom: 20px;
   right: 0px;
   height: 600px; }
@@ -202,6 +217,9 @@ br {
 #radio_mockup img {
   width: 80%; }
 
+#resume_content figcaption {
+  margin-top: 0; }
+
 #mythinkspace_logo {
   height: 400px; }
 
@@ -218,6 +236,10 @@ br {
   z-index: -1; }
 
 #resume_panel4 {
+  opacity: 0;
+  z-index: -1; }
+
+#resume_panel5 {
   opacity: 0;
   z-index: -1; }
 
@@ -270,3 +292,7 @@ br {
 #contact_info a:link, visited, hover, active {
   color: #16669f;
   text-decoration: none; }
+
+#contact_info img {
+  margin-top: 10px;
+  height: 50px; }
