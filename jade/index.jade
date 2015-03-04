@@ -6,23 +6,23 @@ html
 			//- Top Navigation Bar
 			div(id="top_bar")
 				p(class="main_nav" onclick="$.scrollTo('0', 1000);") Me
-				p(class="main_nav" onclick="$.scrollTo('970', 1000);") Resume
+				p(class="main_nav" onclick="$.scrollTo('970', 1000);") Portfolio
 				p(id="my_name") Mitchell Wolfe
-				p(class="main_nav" onclick="$.scrollTo('1800', 1000);") Portfolio
-				p(class="main_nav" onclick="$.scrollTo('2630', 1000);") For Fun
+				p(class="main_nav" onclick="$.scrollTo('1800', 1000);") For Fun
+				p(class="main_nav" onclick="$.scrollTo('2630', 1000);") Resume
 			//- div(id="undercover")
 
 			//- About Me Section
 			include _about
-
-			//- Resume Section
-			include _resume
 
 			//- Work Section
 			include _work
 
 			//- Fun Sction
 			include _fun
+
+			//- Resume Section
+			include _resume
 
 			//- Contact
 			include _contact

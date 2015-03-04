@@ -8,6 +8,7 @@
 /*---------------------------------------------*/ 
 $main_blue: #16669f;
 $main_red: #AC2B29;
+$text_gray: #3f3f3f;
 
 $page_width: 100%;
 $element_height: 800px;
@@ -49,6 +50,7 @@ $element_height: 800px;
 
 .active {
 	font-weight: bold;
+	text-decoration: line-through;
 }
 
 /*---------------------------------------------*/
@@ -128,7 +130,6 @@ $gallery_image_height: 150px;
 
 #top_bar p:hover:not(#my_name) {
 	text-decoration: line-through;
-
 }
 
 #my_name {
@@ -157,17 +158,20 @@ $gallery_image_height: 150px;
 }
 
 .content_area_title {
-	width: 50%;
 	font-size: 30px;
 	font-weight: 900;
 	position: relative;
 	left: 30px;
-	top: 30px;
 	z-index: 5;
+	color: $main_blue;
 }
 
 .content_nav_container {
+	height: 8%;
 	@extend .parent;
+	color: $main_blue;
+	border-bottom: dashed 3px $main_blue;
+	margin-bottom: 10px;
 }
 
 .content_nav_container p:not(.content_area_title) {
@@ -181,6 +185,7 @@ $gallery_image_height: 150px;
 	width: 90%;
 	height: 90%;
 	overflow: auto;
+	color: $text_gray;
 }
 
 .content_panel p {
@@ -205,6 +210,7 @@ $gallery_image_height: 150px;
 
 .panel_media {
 	@extend .parent;
+	color: $text_gray;
 }
  
 /*---------------------------------------------*/
@@ -213,6 +219,7 @@ $gallery_image_height: 150px;
 #about_me {
 	@extend .primary;
 	margin-top: 200px;
+	color: $text_gray;
 }
 
 #portrait {
