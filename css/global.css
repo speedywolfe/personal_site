@@ -71,6 +71,10 @@ br {
 .slice:hover {
   text-decoration: line-through; }
 
+#figure a {
+  height: 100px;
+  max-height: 800px; }
+
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
@@ -155,6 +159,10 @@ br {
   border-radius: 5px;
   margin: 5px;
   height: 280px; }
+
+.item:hover {
+  background-color: #16669f;
+  color: white; }
 
 .item p {
   font-size: 14px; }

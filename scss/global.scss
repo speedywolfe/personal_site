@@ -94,6 +94,11 @@ br {
 	text-decoration: line-through;
 }
 
+#figure a {
+	height: 100px;
+	max-height: 800px;
+}
+
 /*---------------------------------------------*/
 /* Gallery */
 /*---------------------------------------------*/
@@ -194,7 +199,6 @@ $gallery_image_height: 150px;
 }
 
 .item {
-	// height: 300px;
 	float: left;
 	border-style: solid;
 	border-color: $main_red;
@@ -202,6 +206,11 @@ $gallery_image_height: 150px;
 	border-radius: 5px;
 	margin: 5px;
 	height: 280px;
+}
+
+.item:hover {
+	background-color: $main_blue;
+	color: white;
 }
 
 .item p {
