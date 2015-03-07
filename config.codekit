@@ -229,17 +229,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/javascript\/min\/slimbox2.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/min\/slimbox2.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/min\/slimbox2-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/markdown\/about.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,

@@ -17,14 +17,14 @@
   top: 0;
   bottom: 0; }
 
-.add-cursor, #top_bar p:not(#my_name), .content_nav_container p:not(.content_area_title) {
+.add-cursor, .content_nav_container p:not(.content_area_title), #top_bar p:not(#my_name) {
   cursor: pointer; }
 
 .main-image, #work_content img, #fun_content img {
   padding: 5px;
-  height: 220px; }
+  height: 240px; }
 
-.parent, #top_bar, .content_nav_container, .panel_media, .resume_container, #contact_info {
+.parent, .content_nav_container, .panel_media, #top_bar, .resume_container, #contact_info {
   display: flex;
   display: -webkit-flex;
   justify-content: space-around;
@@ -60,10 +60,8 @@ body {
   src: url(../resources/liberation.ttf); }
 figure {
   text-align: center;
-  height: 300px; }
-
-figcaption {
-  margin-top: 250px; }
+  height: 300px;
+  min-width: 300px; }
 
 br {
   margin-bottom: 10px; }
@@ -71,47 +69,10 @@ br {
 .slice:hover {
   text-decoration: line-through; }
 
-#figure a {
-  height: 100px;
-  max-height: 800px; }
-
-/*---------------------------------------------*/
-/* Gallery */
-/*---------------------------------------------*/
-.panel_media a {
-  height: 150px;
-  padding: 10px;
-  float: left; }
-
-.gallery_image {
-  height: 150px; }
-
-/*---------------------------------------------*/
-/* Top Navigation Bar */
-/*---------------------------------------------*/
-#top_bar {
-  z-index: 101;
-  width: 100%;
-  height: 200px;
-  position: fixed;
-  top: 0px;
-  background-color: #16669f;
-  overflow: hidden;
-  color: white;
-  font-size: 30px; }
-
-#top_bar p:hover:not(#my_name) {
-  text-decoration: line-through; }
-
-#my_name {
-  font-size: 48px; }
-
-#undercover {
-  height: 200px;
-  width: 100%;
-  position: relative;
-  background-color: white;
-  z-index: -1; }
+figure a img {
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*---------------------------------------------*/
 /* All Content Areas */
@@ -141,8 +102,8 @@ br {
 .content_panel {
   position: absolute;
   top: 10%;
-  left: 5%;
-  width: 90%;
+  left: 2.5%;
+  width: 95%;
   height: 90%;
   overflow: auto;
   color: #3f3f3f; }
@@ -190,6 +151,33 @@ br {
   bottom: 20px;
   right: 0px;
   height: 600px; }
+
+/*---------------------------------------------*/
+/* Top Navigation Bar */
+/*---------------------------------------------*/
+#top_bar {
+  z-index: 101;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top: 0px;
+  background-color: #16669f;
+  overflow: hidden;
+  color: white;
+  font-size: 30px; }
+
+#top_bar p:hover:not(#my_name) {
+  text-decoration: line-through; }
+
+#my_name {
+  font-size: 48px; }
+
+#undercover {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  z-index: -1; }
 
 /*---------------------------------------------*/
 /* Resume */

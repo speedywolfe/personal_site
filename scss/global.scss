@@ -34,7 +34,7 @@ $element_height: 800px;
 
 .main-image {
 	padding: 5px;
-	height: 220px;
+	height: 240px;
 }
 
 .parent {
@@ -80,10 +80,7 @@ body {
 figure {
 	text-align: center;
 	height: 300px;
-}
-
-figcaption {
-	margin-top: 250px;
+	min-width: 300px;
 }
 
 br {
@@ -94,59 +91,11 @@ br {
 	text-decoration: line-through;
 }
 
-#figure a {
-	height: 100px;
-	max-height: 800px;
-}
-
-/*---------------------------------------------*/
-/* Gallery */
-/*---------------------------------------------*/
-$gallery_image_height: 150px;
-
-.panel_media a {
-	height: $gallery_image_height;
-	padding: 10px;
-	float: left;
-}
-.gallery_image {
-	height: $gallery_image_height;
-}
-
-/*---------------------------------------------*/
-/* Top Navigation Bar */
-/*---------------------------------------------*/
-#top_bar {
-	@extend .parent;
-	z-index: 101;
-	width: 100%;
-	height: 200px;
-	position: fixed;
-	top: 0px;
-	background-color: $main_blue;
-	overflow: hidden;
-	color: white;
-	font-size: 30px;
-}
-
-#top_bar p:not(#my_name) {
-	@extend .add-cursor;
-}
-
-#top_bar p:hover:not(#my_name) {
-	text-decoration: line-through;
-}
-
-#my_name {
-	font-size: 48px;
-}
-
-#undercover {
-	height: 200px;
-	width: $page_width;
-	position: relative;
-	background-color: white;
-	z-index: -1;
+figure a img {
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	// margin-top: 20px;
 }
 
 /*---------------------------------------------*/
@@ -186,8 +135,8 @@ $gallery_image_height: 150px;
 .content_panel {
 	position: absolute;
 	top: 10%;
-	left: 5%;
-	width: 90%;
+	left: 2.5%;
+	width: 95%;
 	height: 90%;
 	overflow: auto;
 	color: $text_gray;
@@ -245,6 +194,42 @@ $gallery_image_height: 150px;
 	bottom: 20px;
 	right: 0px;
 	height: 600px;
+}
+
+/*---------------------------------------------*/
+/* Top Navigation Bar */
+/*---------------------------------------------*/
+#top_bar {
+	@extend .parent;
+	z-index: 101;
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	top: 0px;
+	background-color: $main_blue;
+	overflow: hidden;
+	color: white;
+	font-size: 30px;
+}
+
+#top_bar p:not(#my_name) {
+	@extend .add-cursor;
+}
+
+#top_bar p:hover:not(#my_name) {
+	text-decoration: line-through;
+}
+
+#my_name {
+	font-size: 48px;
+}
+
+#undercover {
+	height: 200px;
+	width: $page_width;
+	position: relative;
+	background-color: white;
+	z-index: -1;
 }
 
 /*---------------------------------------------*/
