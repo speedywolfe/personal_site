@@ -411,3 +411,36 @@ figure a img {
 	margin-top: 10px;
 	height: 50px;
 }
+
+/*---------------------------------------------*/
+/* Single Pages */
+/*---------------------------------------------*/
+.page_link {
+	color: $main_blue;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.single_page_container {
+	position: relative;
+	top: 60px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-bottom: 100px;
+}
+
+.page_section_paragraph {
+	text-indent: 50px;
+	padding: 10px 170px 10px 170px;
+	font-size: 20px;
+}
+
+.bottom_space_bar {
+	position: relative;
+	bottom: 0px;
+	height: 60px;
+	width: 100%;
+	background-color: $main_blue;
+}
