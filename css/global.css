@@ -335,6 +335,12 @@ figure a img {
   padding: 10px 170px 10px 170px;
   font-size: 20px; }
 
+.ehp_image {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .bottom_space_bar {
   position: relative;
   bottom: 0px;
