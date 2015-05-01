@@ -5,7 +5,7 @@ div(id="resume")
 		p(id="radio_sel" class="slice" onclick="switch_panel('resume_panel', 2, 'radio_sel');") Radio 1190
 		p(id="space_sel" class="slice" onclick="switch_panel('resume_panel', 3, 'space_sel');") Space Research Company
 		p(id="warner_sel" class="slice" onclick="switch_panel('resume_panel', 4, 'warner_sel');") Time Warner Cable
-		p(id="think_sel" class="slice" onclick="switch_panel('resume_panel', 5, 'think_sel');") MyThinkSpace
+		p(id="ehp_sel" class="slice" onclick="switch_panel('resume_panel', 5, 'ehp_sel');") EHP
 
 	div(id="resume_content")
 		div(id="resume_panel1" class="content_panel")
@@ -77,14 +77,16 @@ div(id="resume")
 						include ../markdown/time_warner_cable.md
 				a(class="page_link" href="single_pages/time_warner.html" target="_blank") Full Writeup
 		div(id="resume_panel5" class="content_panel")
-			p(class="panel_description") MyThinkSpace
+			p(class="panel_description") EHP Portfolio
 			div(class="resume_container")
 				div(id="thinkspace_words")
 					p(id="thinkspace_section_markdown" class="resume_words")
-						include ../markdown/mythinkspace.md
-				div(class="resume_small_container")
-					figure
-						img(src="images/graphic_design/full/my_think_space.svg")
-						figcaption Logo I designed for the Project
-
-				
+						include ../markdown/ehp_intro.md
+					div(id="ehp_link_holder")
+						a(class="ehp_link" href="single_pages/state_of_prof_purpose.html" target ="_blank") Statement of Professional Purpose
+						a(class="ehp_link" href="single_pages/phil_of_education.html" target ="_blank") Philosophy of Education
+						a(class="ehp_link" href="single_pages/spec_coursework.html" target ="_blank") Special Coursework
+						a(class="ehp_link" href="single_pages/mythinkspace.html" target ="_blank") Design Project
+						a(class="ehp_link" href="single_pages/senior_project.html" target ="_blank") Senior Design Project
+						a(class="ehp_link" href="single_pages/time_Warner.html" target ="_blank") Internships
+						a(class="ehp_link" href="" target ="_blank") Creative Work

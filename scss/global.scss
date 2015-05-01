@@ -431,6 +431,22 @@ figure a img {
 	padding-bottom: 100px;
 }
 
+#ehp_link_holder {
+	@extend .parent;
+}
+
+.ehp_link {
+	@extend .slice;
+	text-decoration: none;
+	padding-top: 30px;
+}
+
+.ehp_small_header {
+	font-size: 24px;
+	font-weight: 700;
+	padding-left: 100px;
+}
+
 .page_section_paragraph {
 	text-indent: 50px;
 	padding: 10px 170px 10px 170px;

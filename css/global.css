@@ -24,7 +24,7 @@
   padding: 5px;
   height: 240px; }
 
-.parent, .content_nav_container, .panel_media, #top_bar, .resume_container, #contact_info {
+.parent, .content_nav_container, .panel_media, #top_bar, .resume_container, #contact_info, #ehp_link_holder {
   display: flex;
   display: -webkit-flex;
   justify-content: space-around;
@@ -66,7 +66,7 @@ figure {
 br {
   margin-bottom: 10px; }
 
-.slice:hover {
+.slice:hover, .ehp_link:hover {
   text-decoration: line-through; }
 
 figure a img {
@@ -320,6 +320,15 @@ figure a img {
   margin-right: auto;
   background-color: white;
   padding-bottom: 100px; }
+
+.ehp_link {
+  text-decoration: none;
+  padding-top: 30px; }
+
+.ehp_small_header {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 100px; }
 
 .page_section_paragraph {
   text-indent: 50px;
