@@ -257,6 +257,13 @@ figure a img {
 	margin-bottom: 10px;
 }
 
+.resume_download {
+	color: $main_blue;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 700;
+}
+
 #experience {
 	width: 49%;
 }
@@ -431,7 +438,7 @@ figure a img {
 	padding-bottom: 100px;
 }
 
-#ehp_link_holder {
+.ehp_link_holder {
 	@extend .parent;
 }
 
@@ -458,6 +465,18 @@ figure a img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.ehp_video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 640px;
+	height: 480px;
+}
+
+#logo_showcase{
+	@extend .parent;
 }
 
 .bottom_space_bar {

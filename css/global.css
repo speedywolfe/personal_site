@@ -24,7 +24,7 @@
   padding: 5px;
   height: 240px; }
 
-.parent, .content_nav_container, .panel_media, #top_bar, .resume_container, #contact_info, #ehp_link_holder {
+.parent, .content_nav_container, .panel_media, #top_bar, .resume_container, #contact_info, .ehp_link_holder, #logo_showcase {
   display: flex;
   display: -webkit-flex;
   justify-content: space-around;
@@ -193,6 +193,12 @@ figure a img {
   text-decoration: underline;
   margin-bottom: 10px; }
 
+.resume_download {
+  color: #16669f;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700; }
+
 #experience {
   width: 49%; }
 
@@ -340,6 +346,13 @@ figure a img {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.ehp_video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 480px; }
 
 .bottom_space_bar {
   position: relative;
