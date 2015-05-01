@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Mitchell Wolfe</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/lightbox.css" media="screen">
-    <script type="text/javascript" src="../javascript/min/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="../javascript/min/main-ck.js"></script>
-    <script type="text/javascript" src="../javascript/min/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="../javascript/min/lightbox.min.js"></script>
-    <script type="text/javascript" src="../javascript/tracking.js"></script>
-  </head>
-  <body>
-    <div class="single_page_container"> 
-      <h1 id="page_time_header" class="resume_main_header">Senior Project - Radio 1190 </h1>
-      <p class="page_section_content"> <img class="ehp_image" src="single_page_images/noize_machine.png">
+<img class="ehp_image" src="single_page_images/noize_machine.png">
 <span class="ehp_small_header"> Introduction: </span>
 <p class="page_section_paragraph"> The senior projects class is a two semester class that is built to allow computer science students to apply the knowledge that they've acquired throughout their college careers towards building a single large project. Each project is completed by a group of six students, which I was elected to be team lead of, and the requirements are set by sponsors of the class. My team's sponsor was the on campus radio station Radio 1190. </p> 
 
@@ -55,8 +39,3 @@
 
 <span class="ehp_small_header"> Future Plans </span>
 <p class="page_section_paragraph"> Currently, our project and DJ Pro are separate programs that don't overlap. In the End Radio 1190 wants to integrate these two pieces of software. This will be next years senior team project. Mockups for the design and tons of documentation have been left to help this team deal with our software as they work with DJ Pro. Hopefully the problems that we encountered at the beginning of our semester can be mitigated for the next team. </p>
-      </p>
-    </div>
-    <div class="bottom_space_bar"></div>
-  </body>
-</html>

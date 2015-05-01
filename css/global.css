@@ -66,7 +66,7 @@ figure {
 br {
   margin-bottom: 10px; }
 
-.slice:hover, .ehp_link:hover {
+.slice:hover, .ehp_link:hover, .ehp_download:hover {
   text-decoration: line-through; }
 
 figure a img {
@@ -327,9 +327,13 @@ figure a img {
   background-color: white;
   padding-bottom: 100px; }
 
-.ehp_link {
+.ehp_link, .ehp_download {
   text-decoration: none;
   padding-top: 30px; }
+
+.ehp_download {
+  font-size: 20px;
+  padding-left: 20px; }
 
 .ehp_small_header {
   font-size: 24px;
@@ -345,7 +349,9 @@ figure a img {
   width: 80%;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .ehp_video {
   display: block;
@@ -353,6 +359,10 @@ figure a img {
   margin-right: auto;
   width: 640px;
   height: 480px; }
+
+.ehp_small_image {
+  width: 700px;
+  padding: 30px; }
 
 .bottom_space_bar {
   position: relative;

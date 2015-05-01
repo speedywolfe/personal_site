@@ -448,6 +448,12 @@ figure a img {
 	padding-top: 30px;
 }
 
+.ehp_download {
+	@extend.ehp_link;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
 .ehp_small_header {
 	font-size: 24px;
 	font-weight: 700;
@@ -465,6 +471,8 @@ figure a img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .ehp_video {
@@ -477,6 +485,11 @@ figure a img {
 
 #logo_showcase{
 	@extend .parent;
+}
+
+.ehp_small_image {
+	width: 700px;
+	padding: 30px;
 }
 
 .bottom_space_bar {

@@ -97,6 +97,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/_about.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -529,6 +538,27 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/markdown\/senior_projects.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/markdown\/senior_projects.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/markdown\/senior_projects.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/markdown\/space_research_company.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
@@ -710,14 +740,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/single_pages\/senior_project.html": {
-		"fileType": 8192,
-		"ignore": 1,
+	"\/single_pages\/single_page_images\/dj_pro.png": {
+		"fileType": 32768,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/single_pages\/senior_project.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 203027,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/dj_pro.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/dj_pro.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/final.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 350004,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/final.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/final.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/single_pages\/single_page_images\/lean_canvas.png": {
 		"fileType": 32768,
@@ -726,6 +769,94 @@
 		"initialSize": 322513,
 		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/lean_canvas.png",
 		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/lean_canvas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156005,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup1.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159907,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup2.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160101,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup3.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173668,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup4.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159251,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup5.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158272,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup6.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/mockup7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166434,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup7.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/mockup7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/single_pages\/single_page_images\/noize_machine.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111252,
+		"inputAbbreviatedPath": "\/single_pages\/single_page_images\/noize_machine.png",
+		"outputAbbreviatedPath": "\/single_pages\/single_page_images\/noize_machine.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -762,6 +893,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/single_pages\/time_warner.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/single_pages\/writing_samples.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/single_pages\/writing_samples.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
