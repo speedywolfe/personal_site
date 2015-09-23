@@ -57,19 +57,21 @@ $element_height: 800px;
 /* Full Document Styles */
 /*---------------------------------------------*/
 * {
-	font-family: "liberation", "Arial", sans-serif; font-weight:100; font-stretch:normal;
+	font-family: 'Source Sans Pro', sans-serif;
+	// font-family: "liberation", "Arial", sans-serif; font-weight:100; font-stretch:normal;
 	margin: 0px;
 }
 
 body {
 	margin:0;
 	padding:0;
-	background-color: $main_blue;
+	background-color: black;
 }
 
 #container {
 	position: relative;
 	@extend .no-Space;
+	background-color: black;
 }
 
 @font-face {
@@ -106,7 +108,9 @@ figure a img {
 	position: relative;
 	height: $element_height;
 	width: 95%;
-	background-color: white;
+	background-image: url("../images/bg.png");
+	background-repeat: repeat-x, repeat-y;
+	background-color: black;
 	color: $main_blue;
 	margin-bottom: 30px;
 }
@@ -178,6 +182,7 @@ figure a img {
 	@extend .primary;
 	margin-top: 200px;
 	color: $text_gray;
+	background-image: url("../images/main_page/head_image.jpg");
 }
 
 #portrait {
@@ -206,9 +211,10 @@ figure a img {
 	height: 200px;
 	position: fixed;
 	top: 0px;
-	background-color: $main_blue;
+	background-color: black;
 	overflow: hidden;
 	color: white;
+	font-weight: 100;
 	font-size: 30px;
 }
 

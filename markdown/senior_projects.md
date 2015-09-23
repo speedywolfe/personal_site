@@ -1,4 +1,4 @@
-<img class="ehp_image" src="single_page_images/noize_machine.png">
+<!-- <img class="ehp_image" src="single_page_images/noize_machine.png"> -->
 <span class="ehp_small_header"> Introduction: </span>
 <p class="page_section_paragraph"> The senior projects class is a two semester class that is built to allow computer science students to apply the knowledge that they've acquired throughout their college careers towards building a single large project. Each project is completed by a group of six students, which I was elected to be team lead of, and the requirements are set by sponsors of the class. My team's sponsor was the on campus radio station Radio 1190. </p> 
 
